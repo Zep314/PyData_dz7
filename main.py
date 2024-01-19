@@ -25,7 +25,62 @@
 # Примечание: Обязательно соблюдайте условия обслуживания сайта и избегайте чрезмерного скрейпинга, который
 # может нарушить нормальную работу сайта.
 
+from selenium import webdriver
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+
+
+
+
+TARGET_URL = 'https://www.litres.ru/'
 
 if __name__ == '__main__':
-    print('See README.md')
+    user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' \
+                  'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'
+    options = Options()
+    options.add_argument(f'user-agent={user_agent}')
+
+    driver = webdriver.Chrome(options=options)
+    driver.get(TARGET_URL)
+
+    search_box = driver.find_element(By.CLASS_NAME, 'SearchForm-module__input_2AIbu')
+#    search_box = driver.find_element(By.XPATH, '//form[input/@class ="c1vr6imw_main_page"]')
+
+    search_box.send_keys("Булгаков")
+    search_box.submit()
+
+    WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, 'body')))
+
+    # iframe = driver.find_element(By.CLASS_NAME, 'Button-module__textContainer_1I67-')
+    # ActionChains(driver) \
+    #     .scroll_to_element(iframe) \
+    #     .perform()
+    scroll_pause_time = 2
+    last_height = driver.execute_script('return document.documentElement.scrollHeight')
+
+    while True:
+        driver.execute_script('window.scrollTo(0, document.documentElement.scrollHeight);')
+        time.sleep(scroll_pause_time)
+        print(f'скроллинг идет!')
+
+        new_height = driver.execute_script('return document.documentElement.scrollHeight')
+        last_height = new_height    # УБРАТЬ!!!!!!!!
+
+        if new_height == last_height:
+            break
+
+        last_height = new_height
+
+    books_links = driver.find_elements(By.XPATH, '//a[@class="AdaptiveCover-module__container_1j6Nv AdaptiveCover-module__container__pointer_vavb5"]')
+
+    print('======================')
+    for url in books_links:
+        print(url.get_attribute('href'))
+    print('======================')
+
+    driver.quit()
