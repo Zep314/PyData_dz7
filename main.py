@@ -26,61 +26,118 @@
 # может нарушить нормальную работу сайта.
 
 from selenium import webdriver
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-
-
-
+from tqdm import tqdm
+import requests
+from bs4 import BeautifulSoup
+import re
+import csv
 
 TARGET_URL = 'https://www.litres.ru/'
+SEARCH_STR = 'Булгаков'
+user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' \
+             'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'
+
+
+def book_data(book_url):
+    data = {'Author': None,
+            'Name': None,
+            'Format': None,
+            'Price': None,
+            'Rating': None,
+            'Url': book_url,
+            }
+    response = requests.get(book_url, headers={'User-Agent': user_agent})
+    page = BeautifulSoup(response.text, 'html.parser')
+    try:
+        data['Name'] = page.find(class_='BookCard-module__book__mainInfo__title_2zz4M').text
+    except ValueError:
+        pass
+    except AttributeError:
+        pass
+    try:
+        data['Format'] = page.find(class_='Label-module__formatText_3pNcK').text
+    except ValueError:
+        pass
+    except AttributeError:
+        pass
+    try:
+        data['Price'] = float(re.findall(r'\b\d+(?:.\d+)?',
+                                         page.find(class_='SaleBlock-module__block__price__default_kE68R').text)[0])
+    except ValueError:
+        pass
+    except AttributeError:
+        pass
+    try:
+        data['Rating'] = float(re.findall(r'\b\d+(?:.\d+)?',
+                                          page.find(class_='BookFactoids-module__primary_kvfPy').text
+                                          .replace(',', '.'))[0])
+    except ValueError:
+        pass
+    except AttributeError:
+        pass
+    try:
+        data['Author'] = "; ".join([author.text for author in  # Если вдруг авторов несколько
+                                    page.find(class_='Authors-module__authors__wrapper_1rZey').find_all('span')])
+    except ValueError:
+        pass
+    except AttributeError:
+        pass
+    return data
+
+
+def my_save_to_csv(filename, local_data):
+    """
+    Записываем список из словарей local_data в CSV-файл filename
+    :param filename: Путь к файлу для записи
+    :param local_data: Список из словарей с данными
+    :return:
+    """
+    with open(filename, 'w', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Author', 'Name', 'Format', 'Price', 'Rating', 'Url'])  # Пишем заголовок
+        for row in local_data:
+            writer.writerow(row.values())
+
 
 if __name__ == '__main__':
-    user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' \
-                  'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'
+
+    print('Начало работы')
     options = Options()
     options.add_argument(f'user-agent={user_agent}')
-
+    # Запускаем браузер
     driver = webdriver.Chrome(options=options)
     driver.get(TARGET_URL)
-
+    # Задаем поиск
     search_box = driver.find_element(By.CLASS_NAME, 'SearchForm-module__input_2AIbu')
-#    search_box = driver.find_element(By.XPATH, '//form[input/@class ="c1vr6imw_main_page"]')
-
-    search_box.send_keys("Булгаков")
+    search_box.send_keys(SEARCH_STR)
     search_box.submit()
 
     WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, 'body')))
 
-    # iframe = driver.find_element(By.CLASS_NAME, 'Button-module__textContainer_1I67-')
-    # ActionChains(driver) \
-    #     .scroll_to_element(iframe) \
-    #     .perform()
     scroll_pause_time = 2
     last_height = driver.execute_script('return document.documentElement.scrollHeight')
 
     while True:
-        driver.execute_script('window.scrollTo(0, document.documentElement.scrollHeight);')
+        driver.execute_script('window.scrollTo(0, document.documentElement.scrollHeight - 10);')
         time.sleep(scroll_pause_time)
         print(f'скроллинг идет!')
 
-        new_height = driver.execute_script('return document.documentElement.scrollHeight')
-        last_height = new_height    # УБРАТЬ!!!!!!!!
+        #        WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, 'body')))
 
+        new_height = driver.execute_script('return document.documentElement.scrollHeight')
         if new_height == last_height:
             break
-
         last_height = new_height
 
-    books_links = driver.find_elements(By.XPATH, '//a[@class="AdaptiveCover-module__container_1j6Nv AdaptiveCover-module__container__pointer_vavb5"]')
-
-    print('======================')
-    for url in books_links:
-        print(url.get_attribute('href'))
-    print('======================')
-
+    books_links = driver.find_elements(By.XPATH, '//a[@class="AdaptiveCover-module_'
+                                                 '_container_1j6Nv AdaptiveCover-module__container__pointer_vavb5"]')
+    print(f'Найдено {len(books_links)} ссылок')
+    # result = [book_data(url.get_attribute('href')) for url in tqdm(books_links,'Обработка найденных книг')]
+    # my_save_to_csv('litres.csv', result)
     driver.quit()
+    print('Работа завершена.')
