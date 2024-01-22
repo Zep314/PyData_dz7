@@ -36,6 +36,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import csv
+from selenium.common.exceptions import NoSuchElementException
 
 TARGET_URL = 'https://www.litres.ru/'
 SEARCH_STR = 'Булгаков'
@@ -123,21 +124,28 @@ if __name__ == '__main__':
     last_height = driver.execute_script('return document.documentElement.scrollHeight')
 
     while True:
-        driver.execute_script('window.scrollTo(0, document.documentElement.scrollHeight - 10);')
+        driver.execute_script('window.scrollTo(0, document.documentElement.scrollHeight - 10);')  # Скроллинг
         time.sleep(scroll_pause_time)
-        print(f'скроллинг идет!')
-
-        #        WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME, 'body')))
 
         new_height = driver.execute_script('return document.documentElement.scrollHeight')
-        if new_height == last_height:
-            break
+        if new_height == last_height:  # Дошли до конца страницы - проверяем, есть ли еще результаты
+            try:
+                continue_button = driver.find_element(By.XPATH, '//button[@class="Button-module__button_2hpyT '
+                                                                'Button-module__button_large_391UX Button-module_'
+                                                                '_button_secondary_2G8Ew Button-module_'
+                                                                '_button_fullWidth_3v2UT"]')
+            except NoSuchElementException:
+                continue_button = None
+            if continue_button:
+                continue_button.click()
+            else:
+                break
         last_height = new_height
 
     books_links = driver.find_elements(By.XPATH, '//a[@class="AdaptiveCover-module_'
                                                  '_container_1j6Nv AdaptiveCover-module__container__pointer_vavb5"]')
     print(f'Найдено {len(books_links)} ссылок')
-    # result = [book_data(url.get_attribute('href')) for url in tqdm(books_links,'Обработка найденных книг')]
-    # my_save_to_csv('litres.csv', result)
+    result = [book_data(url.get_attribute('href')) for url in tqdm(books_links, 'Обработка найденных книг')]
+    my_save_to_csv('litres.csv', result)
     driver.quit()
     print('Работа завершена.')

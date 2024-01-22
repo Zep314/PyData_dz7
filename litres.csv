@@ -1,13 +1,628 @@
-Author,Name,Format,Price,Rating,Url
-Михаил Булгаков,Морфий и другие рассказы,аудиокнига,159.0,61.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-i-drugie-rasskazy-178526/
-Анатолий Абрашкин; Галина Макарова,Булгаков и дьявол. Опасные тайны «Мастера и Маргариты»,аудиокнига,389.0,2.0,https://www.litres.ru/audiobook/anatoliy-abrashkin/bulgakov-i-dyavol-opasnye-tayny-mastera-i-margarity-69392836/
-Анатолий Абрашкин; Галина Макарова,Булгаков и дьявол. Опасные тайны «Мастера и Маргариты»,текст,389.0,3.8,https://www.litres.ru/book/anatoliy-abrashkin/bulgakov-i-dyavol-opasnye-tayny-mastera-i-margarity-67259420/
-Михаил Булгаков,Мастер и Маргарита,аудиокнига,344.0,368.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-282202/
-АНОНИМУС,Тайный дневник Михаила Булгакова,аудиокнига,399.0,165.0,https://www.litres.ru/audiobook/anonimys/taynyy-dnevnik-mihaila-bulgakova-67432011/
-Михаил Афанасьевич Булгаков,Белая гвардия,аудиокнига,179.0,14.0,https://www.litres.ru/audiobook/mihail-afanasevich-bulgakov/belaya-gvardiya-66596774/
-Михаил Булгаков,Мастер и Маргарита,текст,129.0,4.6,https://www.litres.ru/book/mihail-bulgakov/master-i-margarita-129095/
-АНОНИМУС,Тайный дневник Михаила Булгакова,текст,279.0,3.8,https://www.litres.ru/book/anonimys/taynyy-dnevnik-mihaila-bulgakova-67429485/
-Михаил Булгаков,Мастер и Маргарита (Аудиоспектакль),аудиокнига,339.0,82.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-audiospektakl-67552434/
-,Булгаков за 30 минут,текст,99.0,0.0,https://www.litres.ru/book/ilya-melnikov/bulgakov-za-30-minut-23893424/
-Михаил Булгаков,Белая гвардия,текст,129.0,4.4,https://www.litres.ru/book/mihail-bulgakov/belaya-gvardiya-129100/
-Михаил Булгаков,Собачье сердце,аудиокнига,229.0,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/sobache-serdce-329012/
+Author,Name,Format,Price,Rating,Url
+Михаил Булгаков,Морфий и другие рассказы,аудиокнига,159.0,61.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-i-drugie-rasskazy-178526/
+Анатолий Абрашкин; Галина Макарова,Булгаков и дьявол. Опасные тайны «Мастера и Маргариты»,аудиокнига,389.0,2.0,https://www.litres.ru/audiobook/anatoliy-abrashkin/bulgakov-i-dyavol-opasnye-tayny-mastera-i-margarity-69392836/
+Анатолий Абрашкин; Галина Макарова,Булгаков и дьявол. Опасные тайны «Мастера и Маргариты»,текст,389.0,3.8,https://www.litres.ru/book/anatoliy-abrashkin/bulgakov-i-dyavol-opasnye-tayny-mastera-i-margarity-67259420/
+Михаил Булгаков,Мастер и Маргарита,аудиокнига,344.0,368.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-282202/
+АНОНИМУС,Тайный дневник Михаила Булгакова,аудиокнига,399.0,165.0,https://www.litres.ru/audiobook/anonimys/taynyy-dnevnik-mihaila-bulgakova-67432011/
+Михаил Афанасьевич Булгаков,Белая гвардия,аудиокнига,179.0,14.0,https://www.litres.ru/audiobook/mihail-afanasevich-bulgakov/belaya-gvardiya-66596774/
+Михаил Булгаков,Мастер и Маргарита,текст,129.0,4.6,https://www.litres.ru/book/mihail-bulgakov/master-i-margarita-129095/
+АНОНИМУС,Тайный дневник Михаила Булгакова,текст,279.0,3.8,https://www.litres.ru/book/anonimys/taynyy-dnevnik-mihaila-bulgakova-67429485/
+Михаил Булгаков,Мастер и Маргарита (Аудиоспектакль),аудиокнига,339.0,82.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-audiospektakl-67552434/
+,Булгаков за 30 минут,текст,99.0,0.0,https://www.litres.ru/book/ilya-melnikov/bulgakov-za-30-minut-23893424/
+Михаил Булгаков,Белая гвардия,текст,129.0,4.4,https://www.litres.ru/book/mihail-bulgakov/belaya-gvardiya-129100/
+Михаил Булгаков,Собачье сердце,аудиокнига,229.0,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/sobache-serdce-329012/
+Михаил Булгаков,Собачье сердце,аудиокнига,344.0,74.0,https://www.litres.ru/audiobook/mihail-bulgakov/sobache-serdce-63115648/
+Михаил Булгаков,Собачье сердце,текст,,4.4,https://www.litres.ru/book/mihail-bulgakov/sobache-serdce-133810/
+Борис Соколов,Булгаков. Мистический Мастер,текст,169.0,4.0,https://www.litres.ru/book/boris-vadimovich-sokolov/bulgakov-misticheskiy-master-16912899/
+Михаил Булгаков,Мастер и Маргарита,аудиокнига,189.0,206.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-620195/
+Михаил Булгаков,Весь Булгаков,текст,199.0,5.0,https://www.litres.ru/book/mihail-bulgakov/ves-bulgakov-24622943/
+Михаил Булгаков,Белая гвардия,аудиокнига,253.0,42.0,https://www.litres.ru/audiobook/mihail-bulgakov/belaya-gvardiya-4997315/
+Михаил Булгаков,Мастер и Маргарита (Иллюстрированное издание),текст,119.0,4.6,https://www.litres.ru/book/mihail-bulgakov/master-i-margarita-illustrirovannoe-izdanie-24434994/
+Михаил Булгаков,Записки юного врача (цикл рассказов),аудиокнига,249.0,83.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-unogo-vracha-cikl-rasskazov-4953051/
+Михаил Булгаков,Дни Турбиных (Белая гвардия),аудиокнига,253.0,19.0,https://www.litres.ru/audiobook/mihail-bulgakov/dni-turbinyh-belaya-gvardiya-6278196/
+Михаил Булгаков,Мастер и Маргарита. Коллекционное иллюстрированное издание,текст,399.0,7.0,https://www.litres.ru/book/mihail-bulgakov/master-i-margarita-kollekcionnoe-illustrirovannoe-izdanie-22311873/
+Михаил Булгаков,Записки юного врача. Ранняя проза,текст,199.0,4.8,https://www.litres.ru/book/mihail-bulgakov/zapiski-unogo-vracha-rannyaya-proza-57487213/
+Михаил Булгаков,Бег,текст,129.0,4.6,https://www.litres.ru/book/mihail-bulgakov/beg-173140/
+Михаил Булгаков,Собачье сердце,аудиокнига,129.0,61.0,https://www.litres.ru/audiobook/mihail-bulgakov/sobache-serdce-620215/
+Михаил Булгаков,Бег. Восемь снов,аудиокнига,229.0,11.0,https://www.litres.ru/audiobook/mihail-bulgakov/beg-vosem-snov-291972/
+Михаил Булгаков,Белая гвардия,аудиокнига,129.0,41.0,https://www.litres.ru/audiobook/mihail-bulgakov/belaya-gvardiya-620175/
+Михаил Булгаков,Мастер и Маргарита,текст,149.0,4.6,https://www.litres.ru/book/mihail-bulgakov/master-i-margarita-69019408/
+Михаил Булгаков,Мастер и Маргарита,аудиокнига,189.0,76.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-620205/
+Илья Ильф; Михаил Булгаков,Юмористические и сатирические рассказы,аудиокнига,499.0,9.0,https://www.litres.ru/audiobook/ilya-ilf/umoristicheskie-i-satiricheskie-rasskazy-65849237/
+Михаил Булгаков,Бег (аудиоспектакль),аудиокнига,349.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/beg-audiospektakl-68969814/
+Михаил Булгаков,Театральный роман,текст,139.0,4.4,https://www.litres.ru/book/mihail-bulgakov/teatralnyy-roman-173507/
+Михаил Булгаков,Мастер и Маргарита,аудиокнига,249.0,11.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-55715545/
+Михаил Булгаков,О пользе алкоголизма. Рассказы. Фельетоны,аудиокнига,559.0,34.0,https://www.litres.ru/audiobook/mihail-bulgakov/o-polze-alkogolizma-rasskazy-feletony-65304532/
+Михаил Булгаков,Роковые яйца,аудиокнига,179.0,26.0,https://www.litres.ru/audiobook/mihail-bulgakov/rokovye-yayca-430552/
+Михаил Булгаков,Мастер и Маргарита,аудиокнига,229.0,14.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-329002/
+Михаил Булгаков,Белая гвардия,аудиокнига,149.0,39.0,https://www.litres.ru/audiobook/mihail-bulgakov/belaya-gvardiya-173432/
+Михаил Булгаков,The Master and Margarita / Мастер и Маргарита. Книга для чтения на английском языке,текст,399.0,4.0,https://www.litres.ru/book/mihail-bulgakov/the-master-and-margarita-master-i-margarita-kniga-dlya-cht-57399821/
+Михаил Булгаков,Белая гвардия,аудиокнига,229.0,8.0,https://www.litres.ru/audiobook/mihail-bulgakov/belaya-gvardiya-291982/
+Михаил Булгаков,Собачье сердце,аудиокнига,249.0,18.0,https://www.litres.ru/audiobook/mihail-bulgakov/sobache-serdce-6569499/
+Михаил Булгаков,Зойкина квартира,аудиокнига,149.0,6.0,https://www.litres.ru/audiobook/mihail-bulgakov/zoykina-kvartira-66172906/
+Михаил Булгаков,Белая гвардия (Иллюстрированное издание),текст,119.0,4.2,https://www.litres.ru/book/mihail-bulgakov/belaya-gvardiya-illustrirovannoe-izdanie-24435002/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Обществознание. 10 класс. Базовый уровень. (Общее образование).Учебник.,текст,899.0,1.0,https://www.litres.ru/book/andrey-leonidovich-b/obschestvoznanie-10-klass-bazovyy-uroven-obschee-obra-66270316/
+Михаил Булгаков,Жизнь господина де Мольера,аудиокнига,229.0,29.0,https://www.litres.ru/audiobook/mihail-bulgakov/zhizn-gospodina-de-molera-9302617/
+Олег Шишкин,Биография Воланда,текст,349.0,2.9,https://www.litres.ru/book/oleg-shishkin/biografiya-volanda-42568632/
+Альфред Барков,Метла Маргариты. Ключи к роману Булгакова,текст,229.0,4.4,https://www.litres.ru/book/alfred-barkov/metla-margarity-kluchi-k-romanu-bulgakova-18397907/
+Алан Чароит,Ветер Дивнозёрья,аудиокнига,249.0,13.0,https://www.litres.ru/audiobook/alan-charoit/veter-divnozerya-67950657/
+Элис Виртшалфтер,От победы к миру. Русская дипломатия после Наполеона,текст,399.0,0.0,https://www.litres.ru/book/elis-virtshalfter/ot-pobedy-k-miru-russkaya-diplomatiya-posle-napoleona-69503989/
+Михаил Булгаков,Багровый остров,аудиокнига,253.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/bagrovyy-ostrov-24871015/
+Михаил Булгаков,Белая гвардия. Михаил Булгаков как исторический писатель,текст,399.0,1.0,https://www.litres.ru/book/mihail-bulgakov/belaya-gvardiya-mihail-bulgakov-kak-istoricheskiy-pisatel-50401852/
+Михаил Булгаков; Юрий Казаков,Русская проза ХХ века,аудиокнига,150.0,4.0,https://www.litres.ru/audiobook/mihail-bulgakov/russkaya-proza-hh-veka-57208221/
+А. Г. Булгаков; В. А. Воробьев,"Промышленные роботы. Кинематика, динамика, контроль и управление",текст,399.0,1.0,https://www.litres.ru/book/aleksey-bulgakov/promyshlennye-roboty-kinematika-dinamika-kontrol-i-upravl-8341472/
+Михаил Булгаков; Александр Пушкин,50 Stories from Russia’s Greatest Authors,аудиокнига,249.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/50-stories-from-russia-s-greatest-authors-55339186/
+Джон Гивенс,"Образ Христа в русской литературе. Достоевский, Толстой, Булгаков, Пастернак",текст,399.0,3.0,https://www.litres.ru/book/dzhon-givens/obraz-hrista-v-russkoy-literature-dostoevskiy-tolstoy-bulgako-68458415/
+Михаил Булгаков,Записки юного врача,аудиокнига,229.0,21.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-unogo-vracha-291992/
+Борис Булгаков,Карлос Кастанеда. Жизнь и смерть Воина,аудиокнига,269.0,5.0,https://www.litres.ru/audiobook/boris-bulgakov/karlos-kastaneda-zhizn-i-smert-voina-48451683/
+Михаил Булгаков,Дьяволиада. Роковые яйца,аудиокнига,219.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/dyavoliada-rokovye-yayca-68448139/
+Евгений Жаринов,"Лекция 3. «Михаил Булгаков, Мастер и Маргарита», лекторий «Формула любви»",аудиокнига,279.0,2.0,https://www.litres.ru/audiobook/evgeniy-viktorovich/lekciya-3-mihail-bulgakov-master-i-margarita-lektoriy-69289075/
+Борис Соколов,Тайны Булгакова. Расшифрованная «Белая гвардия»,аудиокнига,499.0,1.0,https://www.litres.ru/audiobook/boris-vadimovich-sokolov/tayny-bulgakova-rasshifrovannaya-belaya-gvardiya-69538891/
+Анри Бергсон,Творческая эволюция,аудиокнига,259.0,2.0,https://www.litres.ru/audiobook/anri-bergson/tvorcheskaya-evoluciya-63432278/
+Михаил Булгаков,Морфий (сборник),аудиокнига,159.0,23.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-23301454/
+Михаил Булгаков,Записки покойника,аудиокнига,229.0,5.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-pokoynika-22607304/
+Михаил Булгаков,Путевые заметки,аудиокнига,271.0,5.0,https://www.litres.ru/audiobook/mihail-bulgakov/putevye-zametki-63115653/
+Михаил Булгаков; Александр Пушкин,"История. Узнавай историю, читая классику",текст,249.0,4.5,https://www.litres.ru/book/mihail-bulgakov/istoriya-uznavay-istoriu-chitaya-klassiku-38621179/
+Михаил Булгаков,Иван Васильевич,текст,,4.5,https://www.litres.ru/book/mihail-bulgakov/ivan-vasilevich-173509/
+Михаил Булгаков,Роковые яйца,аудиокнига,253.0,4.0,https://www.litres.ru/audiobook/mihail-bulgakov/rokovye-yayca-48765027/
+Анри Бергсон,Творческая эволюция,текст,209.0,4.2,https://www.litres.ru/book/anri-bergson/tvorcheskaya-evoluciya-43297399/
+Михаил Булгаков,Жизнь господина де Мольера,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/zhizn-gospodina-de-molera-145200/
+Михаил Булгаков,Белая гвардия,текст,149.0,4.8,https://www.litres.ru/book/mihail-bulgakov/belaya-gvardiya-69314131/
+Борис Соколов,Расшифрованный Булгаков. Тайны «Мастера и Маргариты»,текст,279.0,4.0,https://www.litres.ru/book/boris-vadimovich-sokolo/rasshifrovannyy-bulgakov-tayny-mastera-i-margarity-640785/
+Михаил Булгаков,Самоцветный быт,аудиокнига,179.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/samocvetnyy-byt-69591679/
+Михаил Булгаков; Андрей Шляхов,Байки приемного покоя (сборник),текст,139.0,2.9,https://www.litres.ru/book/mihail-bulgakov/bayki-priemnogo-pokoya-6179139/
+Михаил Булгаков,Мастер и Маргарита (в сокращении),аудиокнига,253.0,42.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-v-sokraschenii-282192/
+Михаил Булгаков,«Собачье сердце» + лекция,аудиокнига,249.0,7.0,https://www.litres.ru/audiobook/dmitriy-bykov/sobache-serdce-lekciya-dmitriya-bykova-30473405/
+Андрей Викторович Яценко,Анализ романа «Мастер и Маргарита» Михаила Булгакова,текст,199.0,0.0,https://www.litres.ru/book/andrey-viktorovich-yace/analiz-romana-master-i-margarita-mihaila-bulgakova-66687014/
+Екатерина Евтухова,Серп и крест. Сергей Булгаков и судьбы русской религиозной философии (1890–1920),текст,399.0,3.0,https://www.litres.ru/book/ekaterina-evtuhova/serp-i-krest-sergey-bulgakov-i-sudby-russkoy-religiozno-68458388/
+Юрий Воробьевский,Неизвестный Булгаков. На свидании с сатаной,текст,139.0,3.8,https://www.litres.ru/book/uriy-vorobevskiy/neizvestnyy-bulgakov-na-svidanii-s-satanoy-27443875/
+Елена Николаевна Алифанова; Наталья Евгеньевна Анненская,Финансовые рынки: цифровая трансформация. (Магистратура). Монография.,текст,399.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/finansovye-rynki-cifrovaya-transformaciya-magistratur-67359354/
+Протоиерей Сергий Булгаков,Чаша Грааля. Софиология страдания,текст,320.0,3.5,https://www.litres.ru/book/protoierey-sergiy-bulgakov/chasha-graalya-sofiologiya-stradaniya-64093351/
+Михаил Булгаков,Самоцветный быт,текст,149.0,4.0,https://www.litres.ru/book/mihail-bulgakov/samocvetnyy-byt-66431678/
+Михаил Булгаков,Зойкина квартира,аудиокнига,99.0,9.0,https://www.litres.ru/audiobook/mihail-bulgakov/zoykina-kvartira-22204302/
+Михаил Булгаков,Под пятой. Записные книжки Мастера (сборник),текст,279.0,5.0,https://www.litres.ru/book/mihail-bulgakov/pod-pyatoy-zapisnye-knizhki-mastera-9477071/
+Михаил Булгаков,Зойкина квартира,аудиокнига,129.0,4.0,https://www.litres.ru/audiobook/mihail-bulgakov/zoykina-kvartira-68792220/
+Михаил Булгаков,Записки юного врача,аудиокнига,253.0,6.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-unogo-vracha-284842/
+Михаил Булгаков,Тьма Египетская,аудиокнига,89.0,13.0,https://www.litres.ru/audiobook/mihail-bulgakov/tma-egipetskaya-6604191/
+Михаил Булгаков,Записки юного врача,аудиокнига,149.0,4.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-unogo-vracha-66633348/
+Михаил Булгаков,Мастер и Маргарита. Библейская тема,аудиокнига,253.0,9.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-i-margarita-bibleyskaya-tema-7013101/
+Лейтенант Дегре,Ясон,текст,399.0,3.0,https://www.litres.ru/book/leytenant-degre/yason-58536358/
+Михаил Булгаков,Юмористические рассказы,аудиокнига,229.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/umoristicheskie-rasskazy-595115/
+Михаил Булгаков,Морфий,аудиокнига,179.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-67986447/
+Наталья Викторовна Угрюмова; Александра Анатольевна Угрюмова,"Развитие орошаемого земледелия по регионам России. Тенденции и перспективы. (Аспирантура, Бакалавриат, Магистратура). Монография.",текст,790.0,0.0,https://www.litres.ru/book/aleksandra-ugrumova/razvitie-oroshaemogo-zemledeliya-po-regionam-rossii-te-68442728/
+Олег Шишкин,Биография Воланда,аудиокнига,419.0,3.0,https://www.litres.ru/audiobook/oleg-shishkin/biografiya-volanda-44788079/
+Е. А. Земская,Михаил Булгаков и его родные. Семейный портрет,текст,200.0,2.0,https://www.litres.ru/book/elena-zemskaya/mihail-bulgakov-i-ego-rodnye-semeynyy-portret-5810445/
+И. О. Родин,М. А. Булгаков «Собачье сердце». Основное содержание. Анализ текста. Литературная критика. Сочинения.,текст,,4.5,https://www.litres.ru/book/i-o-rodin/m-a-bulgakov-sobache-serdce-osnovnoe-soderzhanie-analiz-teksta-l-43203626/
+Михаил Булгаков,Вьюга,аудиокнига,59.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/vuga-69583477/
+Михаил Булгаков,Тьма египетская,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/tma-egipetskaya-69807556/
+Михаил Булгаков,Дьяволиада,аудиокнига,149.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/dyavoliada-68335381/
+Михаил Булгаков,A dog's heart (A Monstrous Story) / Собачье сердце (Чудовищная история). Книга для чтения на английском языке,текст,282.0,1.0,https://www.litres.ru/book/mihail-bulgakov/a-dog-s-heart-a-monstrous-story-sobache-serdce-chudovischn-57400071/
+Сергей Булгаков,Православие,аудиокнига,129.0,2.0,https://www.litres.ru/audiobook/sergey-bulgakov/pravoslavie-2347945/
+Олег Лекманов,М. Булгаков. «Мастер и Маргарита»,аудиокнига,99.0,2.0,https://www.litres.ru/audiobook/oleg-lekmanov/m-bulgakov-master-i-margarita-39283665/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Информатика. 10-11 класс. Методическое пособие. (Общее образование). Методическое пособие.,текст,270.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/informatika-10-11-klass-metodicheskoe-posobie-obschee-69405001/
+Михаил Булгаков,Записки юного врача,аудиокнига,149.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-unogo-vracha-67273716/
+Михаил Булгаков,Говорящая собака,аудиокнига,253.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/govoryaschaya-sobaka-282182/
+Михаил Булгаков,Тьма египетская,аудиокнига,59.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/tma-egipetskaya-68974698/
+Сборник статей,Сергей Николаевич Булгаков,текст,396.0,0.0,https://www.litres.ru/book/raznoe-65383/sergey-nikolaevich-bulgakov-65093837/
+Михаил Булгаков,Сатирические рассказы и фельетоны,аудиокнига,229.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/satiricheskie-rasskazy-i-feletony-4895754/
+Борис Булгаков,Карлос Кастанеда. Жизнь и смерть Воина,текст,229.0,3.4,https://www.litres.ru/book/boris-bulgakov/karlos-kastaneda-zhizn-i-smert-voina-18977867/
+Андрей Викторович Яценко,Краткий анализ романа «Мастер и Маргарита» Михаила Булгакова. Книга первая,текст,149.0,0.0,https://www.litres.ru/book/andrey-viktorovich-y/kratkiy-analiz-romana-master-i-margarita-mihaila-bulg-65551766/
+Андрей Викторович Яценко,Краткий анализ романа «Мастер и Маргарита» Михаила Булгакова. Книга вторая,текст,149.0,0.0,https://www.litres.ru/book/andrey-viktorovich-y/kratkiy-analiz-romana-master-i-margarita-mihaila-bulg-67906623/
+Михаил Булгаков,Собачье сердце,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/sobache-serdce-69482284/
+Михаил Булгаков,Вьюга,аудиокнига,89.0,6.0,https://www.litres.ru/audiobook/mihail-bulgakov/vuga-6604167/
+Михаил Булгаков,Пропавший глаз,аудиокнига,89.0,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/propavshiy-glaz-6604182/
+Ольга Этингоф,"Иерусалим, Владикавказ и Москва в биографии и творчестве М. А. Булгакова",текст,420.0,1.0,https://www.litres.ru/book/olga-etingof-1854694/ierusalim-vladikavkaz-i-moskva-v-biografii-i-tvorches-42587157/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Обществознание. 10 класс. Рабочая тетрадь к учебнику. (Общее образование). Практическое пособие.,текст,399.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/obschestvoznanie-10-klass-rabochaya-tetrad-k-uchebnik-69176158/
+Михаил Булгаков,Записки на манжетах,аудиокнига,99.0,2.0,https://www.litres.ru/audiobook/mihail-bulgakov/zapiski-na-manzhetah-4953082/
+Михаил Булгаков,М. А. Булгаков. Сборник,текст,129.0,4.2,https://www.litres.ru/book/mihail-bulgakov/m-a-bulgakov-sbornik-69607708/
+Борис Соколов,"Москва мистическая, Москва загадочная",текст,379.0,2.2,https://www.litres.ru/book/boris-vadimovich-sokolov/moskva-misticheskaya-moskva-zagadochnaya-20031212/
+Алексей Николаевич Жеребцов; Андрей Николаевич Булгаков,Расследование административных правонарушений в области дорожного движения. Учебное пособие для СПО,текст,369.0,0.0,https://www.litres.ru/book/aleksey-nikolaevich/rassledovanie-administrativnyh-pravonarusheniy-v-obla-51386775/
+Михаил Булгаков,Звёздная сыпь,аудиокнига,89.0,6.0,https://www.litres.ru/audiobook/mihail-bulgakov/zvezdnaya-syp-6604173/
+Владимир Алексеевич Колганов,Булгаков и княгиня,текст,,0.0,https://www.litres.ru/book/vladimir-alekseevich-kolganov/bulgakov-i-knyaginya-55614279/
+Валентин Булгаков,Как прожита жизнь. Воспоминания последнего секретаря Л. Н. Толстого,текст,349.0,4.8,https://www.litres.ru/book/vaalentin-bulgakov/kak-prozhita-zhizn-vospominaniya-poslednego-sekretarya-17190423/
+Михаил Булгаков,Дни Турбиных,аудиокнига,169.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/dni-turbinyh-68662549/
+Михаил Булгаков,Морфий (сборник),аудиокнига,179.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-67261574/
+Михаил Булгаков,Морфий (сборник),аудиокнига,159.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-38609855/
+Андрей Викторович Яценко,Противоречия в романе «Мастер и Маргарита» Михаила Булгакова,текст,,1.0,https://www.litres.ru/book/andrey-viktorovich-y/protivorechiya-v-romane-master-i-margarita-mihaila-bu-66687006/
+С. Н. Булгаков; А. И. Виноградов,Энергоэкономичные ширококорпусные жилые дома XXI века,текст,298.0,0.0,https://www.litres.ru/book/a-i-vinogradov-10984/energoekonomichnye-shirokokorpusnye-zhilye-doma-xxi-v-23567595/
+Михаил Булгаков,Дьяволиада,аудиокнига,99.0,2.0,https://www.litres.ru/audiobook/mihail-bulgakov/dyavoliada-4953079/
+Михаил Булгаков,Морфий,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-67920999/
+Юрий Кривоносов,Михаил Булгаков и его время,текст,279.0,1.0,https://www.litres.ru/book/uriy-krivonosov/mihail-bulgakov-i-ego-vremya-28061848/
+Михаил Булгаков,Стальное горло,аудиокнига,89.0,6.0,https://www.litres.ru/audiobook/mihail-bulgakov/stalnoe-gorlo-6604185/
+Михаил Булгаков,Ранние рассказы,аудиокнига,253.0,2.0,https://www.litres.ru/audiobook/mihail-bulgakov/rannie-rasskazy-24505662/
+Михаил Булгаков,Дьяволиада,аудиокнига,253.0,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/dyavoliada-48765035/
+Борис Мягков,Булгаков на Патриарших,текст,199.0,4.0,https://www.litres.ru/book/boris-myagkov/bulgakov-na-patriarshih-2849815/
+Борис Соколов,Булгаков. Мастер и демоны судьбы,текст,719.0,4.5,https://www.litres.ru/book/boris-vadimovich-sokolov/bulgakov-master-i-demony-sudby-19195905/
+Коллектив авторов,Булгаков М.А. 100 и 1 цитата,текст,322.0,4.0,https://www.litres.ru/book/raznoe-4340152/bulgakov-m-a-100-i-1-citata-23395874/
+Геннадий Смолин,Булгаков на пороге вечности. Мистико-эзотерическое расследование загадочной гибели Михаила Булгакова,текст,400.0,1.0,https://www.litres.ru/book/gennadiy-smolin/bulgakov-na-poroge-vechnosti-mistiko-ezotericheskoe-rassle-36066901/
+Константин Трунин,Булгаков. Критика и анализ литературного наследия,текст,,1.0,https://www.litres.ru/book/konstantin-trunin/m-bulgakov-kritika-i-analiz-literaturnogo-naslediya-42572827/
+Наталия Шашина,"Булгаков и НКВД, Шолохов и чужая рукопись: мифы о русских классиках",,26.0,0.0,https://www.litres.ru/podcast/nataliya-shashina/bulgakov-i-nkvd-sholohov-i-chuzhaya-rukopis-mify-o-russk-67757134/
+Вадим Гроссман; Наталия Щеглова,Булгаков - «Мадмазель Жанна»,,,0.0,https://www.litres.ru/podcast/vadim-grossman/bulgakov-madmazel-zhanna-70126491/
+Вадим Гроссман; Наталия Щеглова,"Булгаков - ""Полотенце с петухом""",,,0.0,https://www.litres.ru/podcast/vadim-grossman/bulgakov-polotence-s-petuhom-70126497/
+Оксана Иванова,Играют все,текст,299.0,1.0,https://www.litres.ru/book/oksana-ivanova-18508956/igraut-vse-42352292/
+Владимир Алексеевич Колганов,Москва Михаила Булгакова,текст,,1.0,https://www.litres.ru/book/vladimir-alekseevich-kolganov/moskva-mihaila-bulgakova-51860151/
+Михаил Булгаков,Москва краснокаменная. Очерки и рассказы,аудиокнига,229.0,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/moskva-krasnokamennaya-ocherki-i-rasskazy-292012/
+Михаил Булгаков,Стальное горло,аудиокнига,99.0,2.0,https://www.litres.ru/audiobook/mihail-bulgakov/stalnoe-gorlo-67835076/
+Михаил Булгаков,Вьюга,аудиокнига,99.0,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/vuga-67897956/
+Михаил Булгаков,Кабала святош,аудиокнига,89.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/kabala-svyatosh-53465734/
+Михаил Булгаков,Морфий,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/morfiy-616825/
+Михаил Булгаков,The Heart of a Dog,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/the-heart-of-a-dog-69482278/
+Н. А. Плаксицкая,«Расколотый» человек в «раздробленном» мире. Образ мира и образ человека в сатире М. А. Булгакова,текст,200.0,0.0,https://www.litres.ru/book/natalya-plaksickaya/raskolotyy-chelovek-v-razdroblennom-mire-obraz-mira-i-65618767/
+Ирина Галинская,Дж. С. Сэлинджер и М. Булгаков в современных толкованиях,текст,199.0,0.0,https://www.litres.ru/book/irina-lvovna-galinsk/dzh-s-selindzher-i-m-bulgakov-v-sovremennyh-tolkovani-12118207/
+К. Г. Булгаков,Малоизвестные съедобные грибы,текст,199.0,3.5,https://www.litres.ru/book/k-g-bulgakov/maloizvestnye-sedobnye-griby-21165957/
+Михаил Булгаков,Роковые яйца,аудиокнига,99.0,7.0,https://www.litres.ru/audiobook/mihail-bulgakov/rokovye-yayca-4953088/
+Михаил Булгаков,Морфий,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-69978685/
+Михаил Булгаков,Крещение поворотом,аудиокнига,89.0,4.0,https://www.litres.ru/audiobook/mihail-bulgakov/kreschenie-povorotom-6604176/
+Ольга Поволоцкая,Щит Персея. Личная тайна как предмет литературы,текст,169.0,2.5,https://www.litres.ru/book/olga-povolockaya/schit-perseya-lichnaya-tayna-kak-predmet-literatury-11961939/
+Геннадий Смолин,Как отравили Булгакова. Яд для гения,текст,169.0,3.4,https://www.litres.ru/book/gennadiy-smolin/kak-otravili-bulgakova-yad-dlya-geniya-19377167/
+Сергей Булгаков,Чехов как мыслитель,аудиокнига,179.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/chehov-kak-myslitel-41553891/
+Михаил Булгаков,Полотенце с петухом,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/polotence-s-petuhom-67993436/
+Михаил Булгаков,Полотенце с петухом,аудиокнига,99.0,2.0,https://www.litres.ru/audiobook/mihail-bulgakov/polotence-s-petuhom-68807154/
+Сергей Булгаков,Основные проблемы теории прогресса,аудиокнига,159.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/osnovnye-problemy-teorii-progressa-34997647/
+Сергей Булгаков,Человекобог и человекозверь,аудиокнига,179.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/chelovekobog-i-chelovekozver-39428369/
+Михаил Булгаков,Тьма египетская,текст,,4.5,https://www.litres.ru/book/mihail-bulgakov/tma-egipetskaya-129096/
+Михаил Булгаков,Ханский огонь,аудиокнига,149.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/hanskiy-ogon-4895757/
+Михаил Булгаков,Полотенце с петухом. Рассказ,аудиокнига,,1.1,https://www.litres.ru/audiobook/mihail-bulgakov/polotence-s-petuhom-rasskaz-6595194/
+Михаил Булгаков,Записки юного врача,текст,,4.6,https://www.litres.ru/book/mihail-bulgakov/zapiski-unogo-vracha-166193/
+Михаил Булгаков,Рассказы,аудиокнига,129.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/rasskazy-439525/
+Михаил Булгаков,Крещение поворотом,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/kreschenie-povorotom-68453129/
+Михаил Булгаков,Звёздная сыпь,аудиокнига,59.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/zvezdnaya-syp-68475527/
+Михаил Булгаков,Крещение поворотом,аудиокнига,59.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/kreschenie-povorotom-69906823/
+Михаил Булгаков,Мертвые души,текст,,4.4,https://www.litres.ru/book/mihail-bulgakov/mertvye-dushi-638025/
+Михаил Булгаков,Багровый остров,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/bagrovyy-ostrov-616875/
+Михаил Булгаков,Похождения Чичикова,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/pohozhdeniya-chichikova-616845/
+Михаил Булгаков,Пропавший глаз,аудиокнига,59.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/propavshiy-glaz-69842266/
+Михаил Булгаков,Тьма египетская,аудиокнига,59.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/tma-egipetskaya-69865642/
+Михаил Булгаков,Морфий,аудиокнига,99.0,6.0,https://www.litres.ru/audiobook/mihail-bulgakov/morfiy-67273821/
+Илья Булгаков,Дамы. Пьесы для театра в моей голове,текст,100.0,1.0,https://www.litres.ru/book/ilya-bulgakov/damy-pesy-dlya-teatra-v-moey-golove-17070755/
+Леонид Гарин,Михаил Булгаков. Тайная жизнь Мастера,текст,,3.5,https://www.litres.ru/book/leonid-garin/mihail-bulgakov-taynaya-zhizn-mastera-9547254/
+Михаил Булгаков,Похождения Чичикова,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/pohozhdeniya-chichikova-4953085/
+Вера Калмыкова,Михаил Булгаков,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/vera-kalmykova/mihail-bulgakov-24916030/
+Михаил Булгаков,Крещение поворотом,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/kreschenie-povorotom-69759301/
+Сергей Булгаков,"Икона, ее содержание и границы",аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/ikona-ee-soderzhanie-i-granicy-25097260/
+Сергей Булгаков,Карл Маркс как религиозный тип,аудиокнига,89.0,1.0,https://www.litres.ru/audiobook/sergey-bulgakov/karl-marks-kak-religioznyy-tip-25201323/
+Сергей Булгаков,Героизм и подвижничество,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/sergey-bulgakov/geroizm-i-podvizhnichestvo-29797165/
+Михаил Булгаков,Кабала святош,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/kabala-svyatosh-64919506/
+Сергей Булгаков,Русская трагедия (о «Бесах» Достоевского),аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/russkaya-tragediya-o-besah-dostoevskogo-67090773/
+Михаил Булгаков,Пропавший глаз,текст,,4.5,https://www.litres.ru/book/mihail-bulgakov/propavshiy-glaz-129099/
+Михаил Булгаков,Дни Турбиных,текст,,4.3,https://www.litres.ru/book/mihail-bulgakov/dni-turbinyh-173508/
+Михаил Булгаков,Зойкина квартира,текст,,4.1,https://www.litres.ru/book/mihail-bulgakov/zoykina-kvartira-29186342/
+Михаил Булгаков,Полотенце с петухом,текст,,4.6,https://www.litres.ru/book/mihail-bulgakov/polotence-s-petuhom-129040/
+Михаил Булгаков,Стальное горло,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/stalnoe-gorlo-68192563/
+Михаил Булгаков,Полотенце с петухом,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/polotence-s-petuhom-68358890/
+Михаил Булгаков,Пропавший глаз,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/propavshiy-glaz-68807094/
+Михаил Булгаков,Звёздная сыпь,аудиокнига,59.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/zvezdnaya-syp-70022116/
+Михаил Булгаков,Морфий (сборник),текст,,4.6,https://www.litres.ru/book/mihail-bulgakov/morfiy-18007232/
+Михаил Булгаков,Роковые яйца,текст,,4.6,https://www.litres.ru/book/mihail-bulgakov/rokovye-yayca-135332/
+Михаил Булгаков,Звёздная сыпь,текст,,4.4,https://www.litres.ru/book/mihail-bulgakov/zvezdnaya-syp-129094/
+Михаил Булгаков,Крещение поворотом,текст,,4.5,https://www.litres.ru/book/mihail-bulgakov/kreschenie-povorotom-129081/
+Михаил Булгаков,Вьюга,текст,,4.4,https://www.litres.ru/book/mihail-bulgakov/vuga-129082/
+Елена Арсеньева,Банга-Любанга (Любовь Белозерская – Михаил Булгаков),текст,,4.0,https://www.litres.ru/book/elena-arseneva/banga-lubanga-lubov-belozerskaya-mihail-bulgakov-138436/
+Михаил Булгаков,Стальное горло,текст,,4.6,https://www.litres.ru/book/mihail-bulgakov/stalnoe-gorlo-129051/
+Михаил Булгаков,Приключения покойника,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/priklucheniya-pokoynika-616865/
+Михаил Булгаков,Дьяволиада. Роковые яйца,текст,,4.2,https://www.litres.ru/book/mihail-bulgakov/dyavoliada-rokovye-yayca-48749101/
+Михаил Булгаков; Елена Сергеевна Булгакова,"«Рагно, воды!»",аудиокнига,,3.0,https://www.litres.ru/audiobook/mihail-bulgakov/ragno-vody-69230545/
+Михаил Булгаков,Дьяволиада,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/dyavoliada-616835/
+Михаил Булгаков; Леонид Мартынов,Дальше ехать некуда – это Москва,аудиокнига,,9.0,https://www.litres.ru/audiobook/mihail-bulgakov/dalshe-ehat-nekuda-eto-moskva-67645623/
+Михаил Булгаков,Кабала святош,текст,,4.4,https://www.litres.ru/book/mihail-bulgakov/kabala-svyatosh-173511/
+Михаил Булгаков,Ханский огонь,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/hanskiy-ogon-616815/
+Михаил Булгаков,О страстях и пороках (сборник),текст,,4.4,https://www.litres.ru/book/mihail-bulgakov/o-strastyah-i-porokah-594015/
+Сергей Булгаков,Свет невечерний. Созерцания и умозрения,текст,,4.4,https://www.litres.ru/book/sergey-bulgakov/svet-nevecherniy-sozercaniya-i-umozreniya-18559797/
+Настя Ващенко,Письма. По роману М.Булгакова «Мастер и Маргарита» и мюзиклу от Makers Lab,текст,249.0,0.0,https://www.litres.ru/book/nastya-vaschenko/pisma-po-romanu-m-bulgakova-master-i-margarita-i-muziklu-68964459/
+Сергей Булгаков,Русская трагедия (о «Бесах» Достоевского),текст,,4.7,https://www.litres.ru/book/sergey-bulgakov/russkaya-tragediya-o-besah-dostoevskogo-18572215/
+Михаил Булгаков,Площадь на колесах,текст,,4.8,https://www.litres.ru/book/mihail-bulgakov/ploschad-na-kolesah-616855/
+Борис Соколов,Тайны Булгакова. Расшифрованная «Белая гвардия»,текст,499.0,4.1,https://www.litres.ru/book/boris-vadimovich-sokolov/tayny-bulgakova-rasshifrovannaya-belaya-gvardiya-632955/
+Михаил Булгаков,Приключения покойника,аудиокнига,59.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/priklucheniya-pokoynika-67744802/
+Михаил Булгаков,Путевые заметки,аудиокнига,249.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/putevye-zametki-68416151/
+Михаил Булгаков,Master və Marqarita,аудиокнига,399.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/master-v-marqarita-68863158/
+Михаил Булгаков,Уста ва Маргарита,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/usta-va-margarita-68880393/
+Татьяна Мужицкая; Михаил Лабковский,"Зоопарк в твоей голове. 25 психологических синдромов, которые мешают нам жить",текст,389.0,4.1,https://www.litres.ru/book/mihail-labkovskiy/zoopark-v-tvoey-golove-25-psihologicheskih-sindromov-kot-69318451/
+Татьяна Мужицкая; Михаил Лабковский,"Зоопарк в твоей голове. 25 психологических синдромов, которые мешают нам жить",аудиокнига,569.0,40.0,https://www.litres.ru/audiobook/mihail-labkovskiy/zoopark-v-tvoey-golove-25-psihologicheskih-sindromov-kot-69340678/
+Федор Булгаков,В. В. Верещагин и его произведения,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/v-v-vereschagin-i-ego-proizvedeniya-18800066/
+Алла Эдуардовна Андреева,"Москва в романе Михаила Булгакова «Мастер и Маргарита», или Загадки великого мастера",текст,,5.0,https://www.litres.ru/book/alla-andreeva-268276/moskva-v-romane-mihaila-bulgakova-master-i-margarita-63179426/
+Сергей Булгаков,Христианство и социализм,текст,,2.0,https://www.litres.ru/book/sergey-bulgakov/hristianstvo-i-socializm-550255/
+Сергей Булгаков,Чехов как мыслитель,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/chehov-kak-myslitel-18572201/
+Сергей Минаев,"ГЕРОИ 20-х: Булгаков, Брик, Маяковский, Есенин / ДОЛЕЦКАЯ / МИНАЕВ",,,0.0,https://www.litres.ru/podcast/sergey-minaev/geroi-20-h-bulgakov-brik-mayakovskiy-esenin-doleckaya-minaev-70116231/
+С.В. Булгаков,Настольная книга для священно-церковно-служителей.,текст,,0.0,https://www.litres.ru/book/sergey-vasilevich-bu/nastolnaya-kniga-dlya-svyaschenno-cerkovno-sluzhitele-443865/
+Федор Булгаков,Художественная энциклопедия. Том 1,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/hudozhestvennaya-enciklopediya-tom-1-448795/
+Сергей Булгаков,1. Интеллигенция и религия. (О противоречивости современного безрелигиозного мировоззрения). 2. Воскресение Христа и современное сознание,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/1-intelligenciya-i-religiya-o-protivorechivosti-sovremenno-550215/
+Сергей Булгаков,"Икона, ее содержание и границы",текст,,5.0,https://www.litres.ru/book/sergey-bulgakov/ikona-ee-soderzhanie-i-granicy-2573265/
+Сергей Булгаков,Карл Маркс как религиозный тип,текст,,3.5,https://www.litres.ru/book/sergey-bulgakov/karl-marks-kak-religioznyy-tip-18572313/
+Сергей Булгаков,Моцарт и Сальери,текст,,3.0,https://www.litres.ru/book/sergey-bulgakov/mocart-i-saleri-18572320/
+Федор Булгаков,Иллюстрированная история книгопечатания и типографского искусства т.1,текст,,1.0,https://www.litres.ru/book/fedor-bulgakov/illustrirovannaya-istoriya-knigopechataniya-i-tipografskogo-455245/
+Валентин Булгаков,Христианская этика. Систематические очерки мировоззрения Л.Н.Толстого,текст,,0.0,https://www.litres.ru/book/vaalentin-bulgakov/hristianskaya-etika-sistematicheskie-ocherki-mirovozzre-506375/
+Федор Булгаков,"Граф Л.Н.Толстой и критика его произведений, русская и иностранная",текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/graf-l-n-tolstoy-i-kritika-ego-proizvedeniy-russkaya-i-inos-529225/
+Сергей Булгаков,Философия хозяйства. Ч. 1,текст,,1.0,https://www.litres.ru/book/sergey-bulgakov/filosofiya-hozyaystva-ch-1-558465/
+О. В. Таглина,Михаил Булгаков,текст,75.0,0.0,https://www.litres.ru/book/olga-taglina/mihail-bulgakov-4441905/
+Сборник статей,Русское богословие в европейском контексте. С. Н. Булгаков и западная религиозно-философская мысль,текст,199.0,0.0,https://www.litres.ru/book/raznoe-65383/russkoe-bogoslovie-v-evropeyskom-kontekste-s-n-bulgakov-i-zap-9180830/
+,Михаил Булгаков,текст,89.0,3.9,https://www.litres.ru/book/vera-kalmykova/mihail-bulgakov-10406352/
+Леонид Гарин,Михаил Булгаков. Тайная жизнь Мастера,аудиокнига,279.0,1.0,https://www.litres.ru/audiobook/leonid-garin/mihail-bulgakov-taynaya-zhizn-mastera-17040466/
+Валентин Булгаков,В споре с Толстым. На весах жизни,текст,299.0,4.0,https://www.litres.ru/book/vaalentin-bulgakov/v-spore-s-tolstym-na-vesah-zhizni-17181834/
+Сергей Булгаков,Героизм и подвижничество,текст,,3.5,https://www.litres.ru/book/sergey-bulgakov/geroizm-i-podvizhnichestvo-18559083/
+Сергей Булгаков,Сион,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/sion-18559104/
+Сергей Булгаков,Л. Н. Толстой,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/l-n-tolstoy-18576170/
+Сергей Булгаков,Человекобог и человекозверь,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/chelovekobog-i-chelovekozver-18576352/
+Сергей Булгаков,Победитель – Побежденный,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/pobeditel-pobezhdennyy-18598625/
+Сергей Булгаков,О Владимире Соловьеве,текст,,3.0,https://www.litres.ru/book/sergey-bulgakov/o-vladimire-soloveve-18602349/
+Федор Булгаков,Общественное брожение и русская школа,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/obschestvennoe-brozhenie-i-russkaya-shkola-18603777/
+Федор Булгаков,Томас Карлейль,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/tomas-karleyl-18604092/
+Федор Булгаков,Дело о подкупе министра Луи-Филиппа,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/delo-o-podkupe-ministra-lui-filippa-18604869/
+Федор Булгаков,Увековеченная девушка из Вандеи и генерал Марсо,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/uvekovechennaya-devushka-iz-vandei-i-general-marso-18605065/
+Федор Булгаков,Французская книга об Екатерине II,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/francuzskaya-kniga-ob-ekaterine-ii-18605674/
+Федор Булгаков,Из общественной и литературной жизни Запада,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/iz-obschestvennoy-i-literaturnoy-zhizni-zapada-18633702/
+Федор Булгаков,Процесс маленького человечка с большими последствиями,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/process-malenkogo-chelovechka-s-bolshimi-posledstviyami-18793753/
+Федор Булгаков,Салон г-жи Рекамье,текст,,5.0,https://www.litres.ru/book/fedor-bulgakov/salon-g-zhi-rekame-18793998/
+Федор Булгаков,В. Теккерей,текст,,5.0,https://www.litres.ru/book/fedor-bulgakov/v-tekkerey-18794881/
+Эдуард Филатьев,Тайна булгаковского «Мастера…»,текст,349.0,2.0,https://www.litres.ru/book/eduard-filatev/tayna-bulgakovskogo-mastera-19296068/
+Сергей Булгаков,Философия хозяйства,текст,849.0,0.0,https://www.litres.ru/book/sergey-bulgakov/filosofiya-hozyaystva-21163543/
+Федор Булгаков,Французская книга об Екатерине II,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/francuzskaya-kniga-ob-ekaterine-ii-22098814/
+Федор Булгаков,Французская книга об Екатерине II,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/francuzskaya-kniga-ob-ekaterine-ii-22609842/
+Федор Булгаков,Второй брак Наполеона I,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/vtoroy-brak-napoleona-i-22975498/
+Федор Булгаков,Второй брак Наполеона I,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/vtoroy-brak-napoleona-i-23129515/
+Коллектив авторов; Ю. Я. Кувшинов,Теория здания. Том 1. Здание – оболочка,текст,399.0,1.0,https://www.litres.ru/book/raznoe-4340152/teoriya-zdaniya-tom-1-zdanie-obolochka-23567562/
+Федор Булгаков,Французская книга об Екатерине II,аудиокнига,26.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/francuzskaya-kniga-ob-ekaterine-ii-23733837/
+Михаил Булгаков,О страстях и пороках (сборник),аудиокнига,159.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/o-strastyah-i-porokah-23792389/
+Федор Булгаков,Финансовая оргия XVIII века,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/finansovaya-orgiya-xviii-veka-24121662/
+Сергей Булгаков,Моцарт и Сальери,аудиокнига,26.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/mocart-i-saleri-24121702/
+Юрий Кривоносов,Михаил Булгаков. Фотолетопись жизни и творчества,текст,279.0,2.0,https://www.litres.ru/book/uriy-krivonosov/mihail-bulgakov-fotoletopis-zhizni-i-tvorchestva-24129957/
+Федор Булгаков,Мать Наполеона I,аудиокнига,89.0,1.0,https://www.litres.ru/audiobook/fedor-bulgakov/mat-napoleona-i-24312200/
+Сергей Булгаков,Простота и опрощение,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/prostota-i-oproschenie-24610729/
+Сергей Булгаков; Алексей Артамонов,Смерть Земли,текст,120.0,1.0,https://www.litres.ru/book/sergey-bulgakov/smert-zemli-25199951/
+Сергей Булгаков,Природа в философии Вл. Соловьева,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/priroda-v-filosofii-vl-soloveva-25385099/
+Федор Булгаков,Всемогущество денег в древнем Риме,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/vsemoguschestvo-deneg-v-drevnem-rime-25565191/
+Илья Булгаков,Ловер,текст,,0.0,https://www.litres.ru/book/ilya-bulgakov/lover-26549347/
+Федор Булгаков,Последние дни Людовика XVI,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/poslednie-dni-ludovika-xvi-26719980/
+Сергей Булгаков,Два града: исследования о природе общественных идеалов,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/dva-grada-issledovaniya-o-prirode-obschestvennyh-idealov-27625259/
+Михаил Булгаков,О страстях и пороках (сборник),аудиокнига,159.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/o-strastyah-i-porokah-28057880/
+Федор Булгаков,Мать Наполеона I,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/mat-napoleona-i-28508981/
+Алексей Петрович Бородкин,Персиковый сад,текст,,0.0,https://www.litres.ru/book/aleksey-petrovich-borodkin/persikovyy-sad-28715717/
+Федор Булгаков,Из истории взяточничества в Великобритании,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/iz-istorii-vzyatochnichestva-v-velikobritanii-29826078/
+Михаил Булгаков,Площадь на колесах,аудиокнига,159.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/ploschad-na-kolesah-30811293/
+Федор Булгаков,Из переписки Марии-Каролины и леди Гамильтон,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/iz-perepiski-marii-karoliny-i-ledi-gamilton-33387486/
+Сергей Булгаков,"Икона, ее содержание и границы",аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/ikona-ee-soderzhanie-i-granicy-33813248/
+Федор Булгаков,В. Теккерей,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/fedor-bulgakov/v-tekkerey-34109048/
+Михаил Булгаков; Антон Чехов,Литература. Хрестоматия. Русская классическая драма (10-11 классы). Учебное пособие для СПО,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/literatura-hrestomatiya-russkaya-klassicheskaya-drama-35014192/
+Валерий Александров,Кот Бегемот и другие,текст,490.0,0.0,https://www.litres.ru/book/valeriy-aleksandrov-15777473/kot-begemot-i-drugie-35249473/
+Сергей Булгаков,Простота и опрощение,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/prostota-i-oproschenie-36320215/
+Александр Романов,Шагавший по лезвию. Михаил Булгаков,текст,149.0,0.0,https://www.litres.ru/book/aleksandr-romanov-11569365/shagavshiy-po-lezviu-mihail-bulgakov-36360510/
+Михаил Булгаков,Кабала святош,аудиокнига,99.0,2.0,https://www.litres.ru/audiobook/mihail-bulgakov/kabala-svyatosh-38975033/
+Олег Лекманов,М. Булгаков. «Белая гвардия»,аудиокнига,99.0,1.0,https://www.litres.ru/audiobook/oleg-lekmanov/m-bulgakov-belaya-gvardiya-39283697/
+Сергей Булгаков,На пиру богов,текст,299.0,5.0,https://www.litres.ru/book/sergey-bulgakov/na-piru-bogov-39853471/
+Михаил Булгаков,О страстях и пороках (сборник),аудиокнига,159.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/o-strastyah-i-porokah-40527158/
+Надежда Игоревна Соколова,Заметки о романе М. Булгакова «Белая гвардия»,текст,129.0,1.0,https://www.litres.ru/book/nadezhda-sokolova-13329766/zametki-o-romane-m-bulgakova-belaya-gvardiya-42924483/
+Михаил Александрович Соколовский,Страх (комедия),текст,399.0,0.0,https://www.litres.ru/book/mihail-aleksandrovich-sokolovskiy/strah-komediya-43091611/
+Петр Петрович Драгунов,Раковина,текст,,0.0,https://www.litres.ru/book/petr-petrovich-dragunov/rakovina-45038557/
+Алексей Булгаков,Смыслы в поисках мыслей. Стихи,текст,40.0,0.0,https://www.litres.ru/book/aleksey-bulgakov-21147107/smysly-v-poiskah-mysley-stihi-48630699/
+Михаил Камалеев,Музыка в книгах. Том 1: Булгаков | Пелевин,текст,60.0,1.0,https://www.litres.ru/book/mihail-a-kamaleev/muzyka-v-knigah-tom-1-bulgakov-pelevin-50283219/
+Михаил Булгаков,Мастер и Маргарита / Master i Margarita / Der Meister und Margarita,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/master-i-margarita-master-i-margarita-der-meister-und-marg-50778839/
+Михаил Булгаков,The Embroidered Towel,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/the-embroidered-towel-50810683/
+Михаил Булгаков,Obras ─ Colección  de Mijaíl Bulgákov,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/obras-coleccion-de-mijail-bulgakov-50887343/
+Алексей Николаевич Жеребцов; Андрей Николаевич Булгаков,Административное расследование правонарушений в области дорожного движения. Учебное пособие для вузов,текст,369.0,0.0,https://www.litres.ru/book/aleksey-nikolaevich/administrativnoe-rassledovanie-pravonarusheniy-v-obla-51383668/
+Михаил Булгаков,Ханский огонь,аудиокнига,253.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/hanskiy-ogon-51672907/
+Ф. И. Булгаков,Порт-Артур: Том 2,текст,,0.0,https://www.litres.ru/book/f-i-bulgakov/port-artur-tom-2-51787818/
+Михаил Булгаков,Площадь на колесах,аудиокнига,99.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/ploschad-na-kolesah-57291986/
+Д Булгаков,Общие соображения о разумности землян,текст,109.0,1.0,https://www.litres.ru/book/d-bulgakov/obschie-soobrazheniya-o-razumnosti-zemlyan-57334060/
+Владимир Александрович Елин,Поэма Морфий,текст,399.0,0.0,https://www.litres.ru/book/vladimir-aleksandrovich-elin/poema-morfiy-57334783/
+Михаил Булгаков,The Embroidered Towel,аудиокнига,49.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/the-embroidered-towel-57389418/
+Сергей Булгаков,Русская трагедия (о «Бесах» Достоевского),аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/sergey-bulgakov/russkaya-tragediya-o-besah-dostoevskogo-57484578/
+Михаил Булгаков,Кабала святош,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/kabala-svyatosh-57492201/
+Михаил Булгаков,Приключения покойника,аудиокнига,26.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/priklucheniya-pokoynika-59157677/
+Михаил Булгаков,Площадь на колесах,аудиокнига,26.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/ploschad-na-kolesah-60224042/
+Михаил Булгаков,Приключения покойника,аудиокнига,26.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/priklucheniya-pokoynika-63363046/
+Николай Владимирович Андреев,Иешуа Га-Ноцри. Кто он. Христос или....,текст,,0.0,https://www.litres.ru/book/nikolay-andreev-27066796/ieshua-ga-nocri-kto-on-hristos-ili-63637346/
+Артур Самари,Мастер и Воланд,текст,299.0,0.0,https://www.litres.ru/book/artur-samari-26798333/master-i-voland-64982562/
+Пюрвя Николаевич Мендяев,"Ненаписанные книги, или Рукописи не горят",текст,149.0,0.0,https://www.litres.ru/book/purvya-mendyaev-30801292/nenapisannye-knigi-ili-rukopisi-ne-goryat-65533601/
+Маргарита Митрофанова; Александр Пушной,М.А. Булгаков и массовая культура,,26.0,0.0,https://www.litres.ru/podcast/aleksandr-pushnoy/m-a-bulgakov-i-massovaya-kultura-65617252/
+Игорь Урюпин,Творчество М. А. Булгакова в национально-культурном контексте эпохи,текст,399.0,0.0,https://www.litres.ru/book/i-urupin/tvorchestvo-m-a-bulgakova-v-nacionalno-kulturnom-kontekste-epohi-65928914/
+С. И. Степанов,О мире видимом и невидимом в произведениях М. Булгакова,текст,350.0,0.0,https://www.litres.ru/book/s-i-stepanov-3113636/o-mire-vidimom-i-nevidimom-v-proizvedeniyah-m-bulgako-65997454/
+Михаил Булгаков,Площадь на колесах,аудиокнига,26.0,0.0,https://www.litres.ru/audiobook/mihail-bulgakov/ploschad-na-kolesah-66327450/
+Коллектив шоу «Стиллавин Today»,"М.А. Булгаков ""Мастер и Маргарита"": судьба писателя в тоталитарном государстве",,26.0,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/m-a-bulgakov-master-i-margarita-sudba-pisatelya-v-tot-66815157/
+Альманах,Альманах «СовременникЪ» №5(25) 2021 г. (в честь 130-летия со дня рождения Михаила Булгакова),текст,199.0,0.0,https://www.litres.ru/book/almanah/almanah-sovremennik-5-25-2021-v-chest-130-letiya-so-dnya-rozhdeniy-67078296/
+Альманах,Альманах «СовременникЪ» №6(26) 2021 г. (в честь 130-летия со дня рождения Михаила Булгакова),текст,199.0,0.0,https://www.litres.ru/book/almanah/almanah-sovremennik-6-26-2021-v-chest-130-letiya-so-dnya-rozhdeniy-67078316/
+Владимир Геннадьевич Булгаков; Евгений Геннадьевич Антипов,Расследование и экспертиза пожаров. Учебное пособие для вузов,текст,,0.0,https://www.litres.ru/book/vitaliy-vladimirovic/rassledovanie-i-ekspertiza-pozharov-uchebnoe-posobie-67137221/
+Мария Голубкина; Маргарита Митрофанова,Михаил Афанасьевич Булгаков,,26.0,0.0,https://www.litres.ru/podcast/mariya-golubkina/mihail-afanasevich-bulgakov-67206802/
+Коллектив программы «Профилактика»,Михаил Булгаков,,26.0,1.0,https://www.litres.ru/podcast/kollektiv-programmy-profilaktika/mihail-bulgakov-67211118/
+Александр Сергеевич Булгаков,Золотом на голубом,текст,164.0,1.0,https://www.litres.ru/book/aleksandr-sergeevich-bulgakov/zolotom-na-golubom-67714973/
+Владимир Булгаков,Мысли о себе. Опыты,текст,990.0,0.0,https://www.litres.ru/book/vladimir-bulgakov/mysli-o-sebe-opyty-67878242/
+Надежда Игоревна Соколова,Заметки о романе М. Булгакова «Белая гвардия»,аудиокнига,129.0,0.0,https://www.litres.ru/audiobook/nadezhda-sokolova-13329766/zametki-o-romane-m-bulgakova-belaya-gvardiya-67919835/
+Михаил Булгаков,Master və Marqarita,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/master-v-marqarita-68020289/
+Михаил Булгаков,İT ÜRƏYİ,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/it-ur-yi-68478410/
+Ирина Николаевна Богатая; Наталья Николаевна Хахонова,"Учетно-контрольная и аналитическая среда для бизнеса: возможности и вызовы цифровой экономики. Том 2. (Аспирантура, Бакалавриат, Магистратура). Монография.",текст,790.0,0.0,https://www.litres.ru/book/aliya-hamitovna-kurm/uchetno-kontrolnaya-i-analiticheskaya-sreda-dlya-bizn-68513701/
+Иван Громов,"Шумовые эксперименты, подпольные клубы и Булгаков: 100 лет русского джаза",,26.0,0.0,https://www.litres.ru/podcast/ivan-gromov/shumovye-eksperimenty-podpolnye-kluby-i-bulgakov-100-let-russk-68638534/
+Н. К. Бонецкая,Третий Завет отца Сергия Булгакова,текст,,0.0,https://www.litres.ru/book/n-k-boneckaya/tretiy-zavet-otca-sergiya-bulgakova-68664489/
+Библиотеки Волгодонска,"""Библиоэфир. И поговорим..."" Скандалы в литературе. Тургенев VS Достоевский / Маяковский VS Булгаков",,,0.0,https://www.litres.ru/podcast/biblioteki-volgodons/biblioefir-i-pogovorim-skandaly-v-literature-turgenev-68810126/
+Библиотеки Волгодонска,"""Библиоэфир. И поговорим..."" Скандалы в литературе. Тургенев VS Достоевский / Маяковский VS Булгаков",,,0.0,https://www.litres.ru/podcast/biblioteki-volgodons/biblioefir-i-pogovorim-skandaly-v-literature-turgenev-68816017/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,"Эффективность развития промышленных предприятий. (Аспирантура, Бакалавриат, Магистратура). Монография.",текст,790.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/effektivnost-razvitiya-promyshlennyh-predpriyatiy-asp-68823810/
+И. О. Родин,М. А. Булгаков «Собачье сердце». Биографические сведения. Краткое содержание. История создания повести. Анализ текста. Образы повести. Примеры сочинений,аудиокнига,199.0,1.0,https://www.litres.ru/audiobook/i-o-rodin/m-a-bulgakov-sobache-serdce-biograficheskie-svedeniya-kratkoe-so-68828067/
+Светлана Бразукевич; Владимир Круглов,#13 Взросление • М.А. Булгаков • Уэс Андерсон,,,0.0,https://www.litres.ru/podcast/vladimir-kruglov-32442237/13-vzroslenie-m-a-bulgakov-ues-anderson-68877515/
+Анастасия Александровна Дегтярева,М. А. Булгаков. Анализ творчества,текст,199.0,0.0,https://www.litres.ru/book/anastasiya-aleksandrovna-degtyareva/m-a-bulgakov-analiz-tvorchestva-68909121/
+Андрей Леонидович Булгаков; Арсений Сергеевич Крикунов,Тактики и практики подготовки к ЕГЭ по английскому языку. (Общее образование). Учебно-методическое пособие.,текст,790.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/taktiki-i-praktiki-podgotovki-k-ege-po-angliyskomu-ya-68982546/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Обществознание. 10 класс. Методическое пособие. (Общее образование). Методическое пособие.,текст,899.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/obschestvoznanie-10-klass-metodicheskoe-posobie-obsch-69159076/
+Анастасия Александровна Дегтярева,М. А. Булгаков. Анализ творчества,аудиокнига,199.0,0.0,https://www.litres.ru/audiobook/anastasiya-aleksandrovna-degtyareva/m-a-bulgakov-analiz-tvorchestva-69171358/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Обществознание. 11 класс. Рабочая тетрадь к учебнику. (Общее образование). Практическое пособие.,текст,399.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/obschestvoznanie-11-klass-rabochaya-tetrad-k-uchebnik-69176152/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Обществознание. 11 класс. Методическое пособие. (Общее образование). Методическое пособие.,текст,399.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/obschestvoznanie-11-klass-metodicheskoe-posobie-obsch-69176155/
+Благотворительный фонд Даунсайд Ап,"""Знакомство с синдромом Дауна начинается со страха, но страх этот обманчив"" - Денис Булгаков",,,0.0,https://www.litres.ru/podcast/blagotvoritelnyy-fon/znakomstvo-s-sindromom-dauna-nachinaetsya-so-straha-n-69212169/
+Василий Стоякин,Гражданская война Михаила Булгакова,текст,400.0,0.0,https://www.litres.ru/book/vasiliy-stoyakin/grazhdanskaya-voyna-mihaila-bulgakova-69230542/
+Павел Булгаков,Игрок без номера: remake,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/pavel-bulgakov-32107838/igrok-bez-nomera-remake-69303064/
+Андрей Леонидович Булгаков; Анна Валентиновна Алешина,Обществознание. 10-11 класс. Программа к учебникам. (Общее образование). Методическое пособие.,текст,399.0,0.0,https://www.litres.ru/book/andrey-leonidovich-b/obschestvoznanie-10-11-klass-programma-k-uchebnikam-o-69383005/
+Михаил Булгаков,Beyaz muhafız,текст,,0.0,https://www.litres.ru/book/mihail-bulgakov/beyaz-muhafiz-69403252/
+Ксения Митина,Разочарование собой и жизнью - чем тут помогут Булгаков и Бакман,,,0.0,https://www.litres.ru/podcast/kseniya-mitina/razocharovanie-soboy-i-zhiznu-chem-tut-pomogut-bulgakov-i-b-69413001/
+Татьяна Владимировна Орлова; Игорь Николаевич Усков,"Криминалистическая техника 2-е изд., пер. и доп. Учебник для вузов",текст,,0.0,https://www.litres.ru/book/aleksey-aleksandrovi/kriminalisticheskaya-tehnika-2-e-izd-per-i-dop-uchebn-69501352/
+Татьяна Владимировна Орлова; Игорь Николаевич Усков,"Криминалистическая техника 2-е изд., пер. и доп. Учебник для СПО",текст,,0.0,https://www.litres.ru/book/aleksey-aleksandrovi/kriminalisticheskaya-tehnika-2-e-izd-per-i-dop-uchebn-69501541/
+Ирина Гуляева; Дмитрий Полковниченко,Основные вопросы эффективной эксплуатации электроэнергетических систем,текст,,0.0,https://www.litres.ru/book/aleksandr-bulgakov-3/osnovnye-voprosy-effektivnoy-ekspluatacii-elektroener-69530911/
+Ирина Николаевна Богатая; Наталья Николаевна Хахонова,"Учетно-контрольная и аналитическая среда для бизнеса: возможности и вызовы цифровой экономики. Том 1. (Аспирантура, Бакалавриат, Магистратура). Монография.",текст,790.0,0.0,https://www.litres.ru/book/aliya-hamitovna-kurm/uchetno-kontrolnaya-i-analiticheskaya-sreda-dlya-bizn-69624589/
+Музей-усадьба «Ясная Поляна»,Иван Назаров. Михаил Булгаков: «Я должен жениться три раза»,,,0.0,https://www.litres.ru/podcast/muzey-usadba-yasnaya/ivan-nazarov-mihail-bulgakov-ya-dolzhen-zhenitsya-tri-69638989/
+Контент-бюро pluton,"Вызов времени. Светлана Горшенина, Олег Булгаков",,,0.0,https://www.litres.ru/podcast/kontent-buro-pluton/vyzov-vremeni-svetlana-gorshenina-oleg-bulgakov-69868366/
+Студия Приём,"«Мастер и Маргарита»: кинки-пати у Сатаны, синдром спасателя, Булгаков-маркетолог",,,0.0,https://www.litres.ru/podcast/studiya-priem/master-i-margarita-kinki-pati-u-satany-sindrom-spasatelya-bu-69938800/
+Коллектив радио «Маяк»,"Михаил Булгаков, ""Ханский огонь"" (читает Пётр Мансилья-Круз)",,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/mihail-bulgakov-hanskiy-ogon-chitaet-petr-mansilya-kr-69949671/
+Коллектив радио «Маяк»,"Михаил Булгаков ""Мастер и Маргарита"" (читает Алексей Иващенко)",,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/mihail-bulgakov-master-i-margarita-chitaet-aleksey-iv-69949893/
+Коллектив радио «Маяк»,"Михаил Булгаков, отрывки из «Театрального романа»",,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollektiv-radio/mihail-bulgakov-otryvki-iz-teatralnogo-romana-69949896/
+Коллектив радио «Маяк»,"М. Булгаков, ""Мастер и Маргарита"" (читает Юлия Жженова)",,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/m-bulgakov-master-i-margarita-chitaet-uliya-zhzhenova-69950247/
+Коллектив радио «Маяк»,"Михаил Булгаков, ""Вьюга"" (читает Василий Уриевский)",,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollektiv-radio/mihail-bulgakov-vuga-chitaet-vasiliy-urievskiy-69950337/
+Коллектив радио «Маяк»,"М. Булгаков, главы из романа ""Мастер и Маргарита"" (читает Игорь Неведров)",,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/m-bulgakov-glavy-iz-romana-master-i-margarita-chitaet-69950616/
+Михаил Булгаков,Дни Турбиных,аудиокнига,129.0,1.0,https://www.litres.ru/audiobook/mihail-bulgakov/dni-turbinyh-70058290/
+Булгаков Михаил,Уста ва Маргарита,текст,,0.0,https://www.litres.ru/book/bulgakov-mihail/usta-va-margarita-70072441/
+Булгаков Михаил,Уста ва Маргарита,текст,,0.0,https://www.litres.ru/book/bulgakov-mihail/usta-va-margarita-70072444/
+Вадим Гроссман; Наталия Щеглова,"Михаил Булгаков - ""Ханский огонь"". Часть 1",,,0.0,https://www.litres.ru/podcast/vadim-grossman/mihail-bulgakov-hanskiy-ogon-chast-1-70126680/
+Вадим Гроссман; Наталия Щеглова,"Михаил Булгаков - ""Ханский огонь"". Часть 2",,,0.0,https://www.litres.ru/podcast/vadim-grossman/mihail-bulgakov-hanskiy-ogon-chast-2-70126731/
+Ги Меттан,Запад – Россия: тысячелетняя война. История русофобии от Карла Великого до украинского кризиса,текст,399.0,4.5,https://www.litres.ru/book/gi-mettan/zapad-rossiya-tysyacheletnyaya-voyna-istoriya-rusofobii-ot-karla-68838981/
+Юлия Булгакова,Разреши себе чувствовать. Как перестать подавлять себя и обрести подлинную силу,текст,379.0,3.8,https://www.litres.ru/book/uliya-bulgakova/razreshi-sebe-chuvstvovat-kak-perestat-podavlyat-sebya-i-o-67897583/
+Александр Булгаков,Руские и Наполеон Бонапарте,текст,,1.0,https://www.litres.ru/book/aleksandr-bulgakov/ruskie-i-napoleon-bonaparte-336732/
+Сергей Булгаков,О рынках при капиталистическом производстве. Теоретический этюд,текст,,1.0,https://www.litres.ru/book/sergey-bulgakov/o-rynkah-pri-kapitalisticheskom-proizvodstve-teoreticheski-448785/
+Сергей Булгаков,Религия человекобожества у Л. Фейербаха,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/religiya-chelovekobozhestva-u-l-feyerbaha-550245/
+Сергей Булгаков,"История социальных учений в XIX веке : Лекции проф. С.Н. Булгакова, читанные в Моск. коммерческом ин-те",текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/istoriya-socialnyh-ucheniy-v-xix-veke-lekcii-prof-s-n-bulg-558455/
+Сергей Булгаков,Основные проблемы теории прогресса,текст,,4.0,https://www.litres.ru/book/sergey-bulgakov/osnovnye-problemy-teorii-progressa-18559076/
+Эдмон Гонкур; Жюль Гонкур,Шарль Демайи,текст,,4.0,https://www.litres.ru/book/zhul-gonkur/sharl-demayi-18889125/
+Техника речи; Галина Юзефович,"Глава, в которой режиссеры все никак не справятся с «Мастером и Маргаритой», а лучший Булгаков в кино — до сих пор «Иван Васильевич меняет профессию»",,,0.0,https://www.litres.ru/podcast/raznoe-17990223/glava-v-kotoroy-rezhissery-vse-nikak-ne-spravyatsya-s-mast-66383781/
+Павел Булгаков,Отель «Хенн»: Original,текст,,0.0,https://www.litres.ru/book/pavel-bulgakov-32107838/otel-henn-original-68031374/
+Павел Булгаков,Liar: призрак формальдегида,текст,,0.0,https://www.litres.ru/book/pavel-bulgakov-32107838/oktyabrskiy-marafon-mistiki-i-uzhasov-chast-2-68415310/
+Сергей Булгаков,Свет невечерний. Созерцания и умозрения,текст,,1.0,https://www.litres.ru/book/sergey-bulgakov/svet-nevecherniy-sozercaniya-i-umozreniya-539485/
+Сергей Булгаков,Два града. Исследования о природе общественных идеалов,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/dva-grada-issledovaniya-o-prirode-obschestvennyh-idealov-550235/
+Сергей Булгаков,Чехов как мыслитель,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/chehov-kak-myslitel-550265/
+Федор Булгаков,Из переписки Марии-Каролины и леди Гамильтон,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/iz-perepiski-marii-karoliny-i-ledi-gamilton-18622880/
+Федор Булгаков,Об измене и казни маршала Нея,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/ob-izmene-i-kazni-marshala-neya-18792746/
+Федор Булгаков,Вольтер – кандидат в кардиналы,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/volter-kandidat-v-kardinaly-18794075/
+Я. Нелитов,Записки остраннённого,текст,,0.0,https://www.litres.ru/book/ya-nelitov/zapiski-ostrannennogo-67066761/
+Павел Булгаков,Игрок без номера,текст,,5.0,https://www.litres.ru/book/pavel-bulgakov-32107838/igrok-bez-nomera-67716464/
+Армен Захарян,"Топ-10 первых строчек в истории русской литературы | Чехов, Толстой, Булгаков и другие",,,0.0,https://www.litres.ru/podcast/armen-zaharyan/top-10-pervyh-strochek-v-istorii-russkoy-literatury-chehov-68525709/
+Павел Булгаков,Liar: pt. 2,текст,,0.0,https://www.litres.ru/book/pavel-bulgakov-32107838/liar-pt-2-68608225/
+Сергей Юрьевич Катканов,Размытый след галактики иной,текст,,0.0,https://www.litres.ru/book/sergey-katkanov/razmytyy-sled-galaktiki-inoy-69907375/
+Юлия Булгакова,Разреши себе чувствовать. Как перестать подавлять себя и обрести подлинную силу,аудиокнига,549.0,24.0,https://www.litres.ru/audiobook/uliya-bulgakova/razreshi-sebe-chuvstvovat-kak-perestat-podavlyat-sebya-i-o-67902147/
+Яков Булгаков,"Российское посольство в Константинополь, 1776 года",текст,,1.0,https://www.litres.ru/book/yakov-bulgakov/rossiyskoe-posolstvo-v-konstantinopol-1776-goda-342662/
+Сергей Булгаков,Неотложная задача. О союзе христианской политики,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/neotlozhnaya-zadacha-o-souze-hristianskoy-politiki-448775/
+Федор Булгаков,Художественная энциклопедия. Том 2,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/hudozhestvennaya-enciklopediya-tom-2-448805/
+Сергей Булгаков,Венец терновый : Памяти Ф.М. Достоевского                                                                                                        ,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/venec-ternovyy-pamyati-f-m-dostoevskogo-550225/
+Сергей Булгаков,Судьба Израиля как крест Богоматери,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/sudba-izrailya-kak-krest-bogomateri-18559090/
+Сергей Булгаков,Иван Карамазов как философский тип,текст,,4.3,https://www.litres.ru/book/sergey-bulgakov/ivan-karamazov-kak-filosofskiy-tip-18572208/
+Сергей Булгаков,Жребий Пушкина,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/zhrebiy-pushkina-18572327/
+Сергей Булгаков,Простота и опрощение,текст,,5.0,https://www.litres.ru/book/sergey-bulgakov/prostota-i-oproschenie-18576163/
+Сергей Булгаков,Природа в философии Вл. Соловьева,текст,,0.0,https://www.litres.ru/book/sergey-bulgakov/priroda-v-filosofii-vl-soloveva-18576380/
+Федор Булгаков,Английская Панама в XVII веке,текст,,3.5,https://www.litres.ru/book/fedor-bulgakov/angliyskaya-panama-v-xvii-veke-18604582/
+Федор Булгаков,Любовь при господстве гильотины,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/lubov-pri-gospodstve-gilotiny-18605961/
+Федор Булгаков,Из истории взяточничества в Великобритании,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/iz-istorii-vzyatochnichestva-v-velikobritanii-18606297/
+Федор Булгаков,Из воспоминаний придворной дамы о Тюльери 50-х гг.,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/iz-vospominaniy-pridvornoy-damy-o-tuleri-50-h-18623202/
+Федор Булгаков,История подставной жены Мольера,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/istoriya-podstavnoy-zheny-molera-18792318/
+Федор Булгаков,Мать Наполеона I,текст,,1.0,https://www.litres.ru/book/fedor-bulgakov/mat-napoleona-i-18792598/
+Федор Булгаков,Финансовая оргия XVIII века,текст,,1.0,https://www.litres.ru/book/fedor-bulgakov/finansovaya-orgiya-xviii-veka-18793054/
+Федор Булгаков,Всесветное остроумие,текст,,4.5,https://www.litres.ru/book/fedor-bulgakov/vsesvetnoe-ostroumie-18793326/
+Федор Булгаков,Последние дни Людовика XVI,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/poslednie-dni-ludovika-xvi-18793529/
+Федор Булгаков,Всемогущество денег в древнем Риме,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/vsemoguschestvo-deneg-v-drevnem-rime-18794103/
+Федор Булгаков,Второй брак Наполеона I,текст,,0.0,https://www.litres.ru/book/fedor-bulgakov/vtoroy-brak-napoleona-i-18794131/
+Виталий Штормовой,Цикл,текст,,5.0,https://www.litres.ru/book/vitaliy-shtormovoy/cikl-41133988/
+Малика Саидхакимовна Икрамова,Таська,текст,,1.0,https://www.litres.ru/book/malika-saidhakimovna-ikramova/taska-63069756/
+Павел Булгаков,Тишина Петербурга,текст,,0.0,https://www.litres.ru/book/pavel-bulgakov-32107838/oktyabrskiy-marafon-mistiki-i-uzhasov-chast-1-68415304/
+Павел Булгаков,Liar: Happy new year,текст,,0.0,https://www.litres.ru/book/pavel-bulgakov-32107838/liar-happy-new-year-68736144/
+Михаил Ера,Юродивый,текст,,0.0,https://www.litres.ru/book/mihail-era-32544406/urodivyy-69131896/
+balobash,М.А. Булгаков: Стоит ли свеч игра в Бога,,,0.0,https://www.litres.ru/podcast/balobash/m-a-bulgakov-stoit-li-svech-igra-v-boga-69241245/
+Павел Булгаков,Игрок без номера: remake,текст,,0.0,https://www.litres.ru/book/pavel-bulgakov-32107838/igrok-bez-nomera-remake-69275602/
+Юрий Грымов,Михаил Афанасьевич Булгаков,,,0.0,https://www.litres.ru/podcast/uriy-grymov-19648159/mihail-afanasevich-bulgakov-69768208/
+Леонид Радзиховский,"Леонид Радзиховский отвечает на вопросы: Булгаков, Ильф и Петров, Павловский, Сурков, Кашпировский",,,0.0,https://www.litres.ru/podcast/leonid-radzihovskiy/leonid-radzihovskiy-otvechaet-na-voprosy-bulgakov-ilf-69779130/
+Студия «Трёшка»,Михаил Булгаков: созависимые отношения и тайный роман | Любовь по классике,,,0.0,https://www.litres.ru/podcast/studiya-treshka/mihail-bulgakov-sozavisimye-otnosheniya-i-taynyy-roman-lub-70012255/
+Мариэтта Чудакова,Жизнеописание Михаила Булгакова,текст,499.0,4.4,https://www.litres.ru/book/marietta-chudakova/zhizneopisanie-mihaila-bulgakova-69268276/
+Екатерина Брост,Любовь к себе,текст,349.0,4.0,https://www.litres.ru/book/ekaterina-brost/lubov-k-sebe-68609877/
+Ги Меттан,Запад – Россия: тысячелетняя война. История русофобии от Карла Великого до украинского кризиса,текст,200.0,4.5,https://www.litres.ru/book/gi-mettan/zapad-rossiya-tysyacheletnyaya-voyna-istoriya-rusofobii-ot-karla-23560810/
+Борис Соколов,Три любви Михаила Булгакова,текст,389.0,3.9,https://www.litres.ru/book/boris-vadimovich-sokolov/tri-lubvi-mihaila-bulgakova-7053481/
+Мариэтта Чудакова,Жизнеописание Михаила Булгакова,аудиокнига,499.0,1.0,https://www.litres.ru/audiobook/marietta-chudakova/zhizneopisanie-mihaila-bulgakova-69465670/
+Борис Соколов,Три любви Михаила Булгакова,аудиокнига,249.0,2.0,https://www.litres.ru/audiobook/boris-vadimovich-sokolov/tri-lubvi-mihaila-bulgakova-68196199/
+Анна Сергеевна Одувалова,Ожерелье Лараны,аудиокнига,359.0,3.0,https://www.litres.ru/audiobook/anna-oduvalova/ozherele-larany-69367051/
+Оксана Булгакова,Фабрика жестов,текст,399.0,2.0,https://www.litres.ru/book/oksana-bulgakova-8343808/fabrika-zhestov-66699996/
+Борис Конофальский,Линкор «Альбион»,аудиокнига,249.0,0.0,https://www.litres.ru/audiobook/boris-konofalskiy/linkor-albion-69868021/
+Дарья Булгакова,Прогулки по неизвестной Москве,текст,389.0,4.0,https://www.litres.ru/book/darya-bulgakova/progulki-po-neizvestnoy-moskve-67606709/
+Борис Конофальский,"Линкор «Альбион». Часть 2. Правь, Британия",аудиокнига,249.0,2.0,https://www.litres.ru/audiobook/boris-konofalskiy/linkor-albion-chast-2-prav-britaniya-69868024/
+Агата Лав,Случайный брак с боссом,аудиокнига,279.0,5.0,https://www.litres.ru/audiobook/agata-lav/sluchaynyy-brak-s-bossom-68030335/
+Джастин Вир,"Автор как герой: личность и литературная традиция у Булгакова, Пастернака и Набокова",текст,399.0,0.0,https://www.litres.ru/book/dzhastin-vir/avtor-kak-geroy-lichnost-i-literaturnaya-tradiciya-u-bulgakov-68911587/
+Анна Сергеевна Одувалова,Низвергающий в бездну,аудиокнига,279.0,3.0,https://www.litres.ru/audiobook/anna-oduvalova/nizvergauschiy-v-bezdnu-69338431/
+Сильвия Лайм,Баллада о королеве драконов. Часть 1. Дым,аудиокнига,279.0,4.0,https://www.litres.ru/audiobook/silviya-laym/ballada-o-koroleve-drakonov-chast-1-dym-67940180/
+Рина Ских,Дареному дракону в зубы не смотрят,аудиокнига,229.0,3.0,https://www.litres.ru/audiobook/rina-skih/darenomu-drakonu-v-zuby-ne-smotryat-68346557/
+Слава Доронина,Девочка из прошлого,аудиокнига,279.0,3.0,https://www.litres.ru/audiobook/slava-doronina/devochka-iz-proshlogo-68865807/
+Сергей Николаевич Морозов; Олег Игоревич Попов,Плавание 2-е изд. Учебник для академического бакалавриата,текст,,1.0,https://www.litres.ru/book/vladimir-zaharovich/plavanie-2-e-izd-uchebnik-dlya-akademicheskogo-bakala-37390867/
+Фридрих Краузе,Письма с Первой мировой (1914–1917),текст,400.0,5.0,https://www.litres.ru/book/fridrih-krauze/pisma-s-pervoy-mirovoy-1914-1917-41646811/
+Рина Ских,Дареному дракону в зубы не смотрят – 2,аудиокнига,229.0,9.0,https://www.litres.ru/audiobook/rina-skih/darenomu-drakonu-v-zuby-ne-smotryat-2-68346679/
+Слава Доронина,Цена согласия,аудиокнига,279.0,6.0,https://www.litres.ru/audiobook/slava-doronina/cena-soglasiya-69074605/
+Лана Александровна Ременцова,Паук Эванбайринг,аудиокнига,229.0,20.0,https://www.litres.ru/audiobook/lana-aleksandrovna-remencova/pauk-evanbayring-69803677/
+Светлана Викторовна Булгакова,Управленческий учет. (Бакалавриат). Учебник.,текст,799.0,0.0,https://www.litres.ru/book/svetlana-bulgakova-5991185/upravlencheskiy-uchet-bakalavriat-uchebnik-68627137/
+Татьяна Сергеевна Морозова; Сергей Николаевич Морозов,"Адаптивная и лечебная физическая культура. Плавание 3-е изд., пер. и доп. Учебное пособие для академического бакалавриата",текст,,0.0,https://www.litres.ru/book/nina-zhanovna-bulgak/adaptivnaya-i-lechebnaya-fizicheskaya-kultura-plavani-37390635/
+Дарья Булгакова,Прогулки по неизвестной Москве,аудиокнига,549.0,1.0,https://www.litres.ru/audiobook/darya-bulgakova/progulki-po-neizvestnoy-moskve-67755452/
+Слава Доронина,Скандальная связь,аудиокнига,279.0,2.0,https://www.litres.ru/audiobook/slava-doronina/skandalnaya-svyaz-68967504/
+Татьяна Андрианова,Попаданка на бис. Том 1,аудиокнига,249.0,2.0,https://www.litres.ru/audiobook/tatyana-andrianova/popadanka-na-bis-tom-1-68540622/
+Антон Леонтьев,Ярость херувимов,текст,389.0,5.0,https://www.litres.ru/book/anton-leontev/yarost-heruvimov-67165066/
+,Феминистки не носят розовое (и другие мифы),текст,399.0,3.9,https://www.litres.ru/book/skarlett-kertis/feministki-ne-nosyat-rozovoe-i-drugie-mify-41977294/
+Анастасия Волжская; Валерия Яблонцева,Тайны Иллирии. Брак с летальным исходом,аудиокнига,199.0,7.0,https://www.litres.ru/audiobook/anastasiya-volzhskaya/tayny-illirii-brak-s-letalnym-ishodom-67177169/
+Н. Ж. Булгакова,Игры на воде для обучения и развлечения,текст,399.0,1.0,https://www.litres.ru/book/n-zh-bulgakova/igry-na-vode-dlya-obucheniya-i-razvlecheniya-22960609/
+Слава Доронина,Ее тайна,аудиокнига,279.0,2.0,https://www.litres.ru/audiobook/slava-doronina/ee-tayna-68832516/
+Терин Рем,Призванная быть любимой,аудиокнига,249.0,2.0,https://www.litres.ru/audiobook/terin-rem/prizvannaya-byt-lubimoy-69029089/
+Татьяна Андрианова,Попаданка на бис. Том 2,аудиокнига,249.0,0.0,https://www.litres.ru/audiobook/tatyana-andrianova/popadanka-na-bis-tom-2-68540714/
+Ольга Викторовна Дашкова,Собственность Саида,аудиокнига,299.0,6.0,https://www.litres.ru/audiobook/olga-viktorovna-dashkova/sobstvennost-saida-69123835/
+Агата Лав,Босс со скидкой,аудиокнига,229.0,5.0,https://www.litres.ru/audiobook/agata-lav/boss-so-skidkoy-69371509/
+Галина Герасимова,Ведьмин фонарь,аудиокнига,249.0,10.0,https://www.litres.ru/audiobook/galina-gerasimova/vedmin-fonar-66866198/
+Анастасия Волжская; Валерия Яблонцева,Тайны Иллирии. Брак с правом на счастье,аудиокнига,249.0,6.0,https://www.litres.ru/audiobook/anastasiya-volzhskaya/tayny-illirii-brak-s-pravom-na-schaste-67243973/
+Алайна Салах,Твои,аудиокнига,249.0,9.0,https://www.litres.ru/audiobook/alayna-salah/tvoi-67813740/
+Валентина Кляйн,Избавление от страхов методом «Дойти до дна». Таблетка от инфаркта. Часть 2,аудиокнига,399.0,0.0,https://www.litres.ru/audiobook/valentina-klyayn/izbavlenie-ot-strahov-metodom-doyti-do-dna-tabletka-ot-in-69576739/
+Елена Сотникова,Обещаю тебя забыть,аудиокнига,200.0,1.0,https://www.litres.ru/audiobook/elena-sotnikova-32006669/obeschau-tebya-zabyt-69569467/
+Анастасия Волжская; Валерия Яблонцева,Тайны Иллирии. Паук в янтаре,аудиокнига,199.0,11.0,https://www.litres.ru/audiobook/anastasiya-volzhskaya/tayny-illirii-pauk-v-yantare-67120311/
+,Математика 6 класс. Всероссийские проверочные работы,текст,181.0,0.0,https://www.litres.ru/book/ludmila-zayceva-32190/matematika-6-klass-vserossiyskie-proverochnye-raboty-67991051/
+,Уравнения математической физики. Теория и практика,текст,340.0,1.0,https://www.litres.ru/book/v-g-abdrahmanov/uravneniya-matematicheskoy-fiziki-teoriya-i-praktika-8382572/
+,Математика 4 класс. Всероссийские проверочные работы,текст,162.0,0.0,https://www.litres.ru/book/ludmila-zayceva-32190/matematika-4-klass-vserossiyskie-proverochnye-raboty-67991045/
+Яна Ясная,Муж мой – враг мой,аудиокнига,249.0,6.0,https://www.litres.ru/audiobook/yana-yasnaya/muzh-moy-vrag-moy-67645703/
+Оптинские преподобные старцы,Источник светлой радости,текст,249.0,0.0,https://www.litres.ru/book/starcy-optinskie-prepodobnye/istochnik-svetloy-radosti-48791763/
+Алла Арлетт Антонюк,"Маргарита в Зазеркалье, или «Синдром Алисы». «Мастер и Маргарита» Булгакова М. в контексте дилогий Л. Кэрролла и комедий В. Шекспира",текст,488.0,0.0,https://www.litres.ru/book/alla-arlett-antonuk/margarita-v-zazerkale-ili-sindrom-alisy-master-i-marga-68766126/
+Терин Рем,Раскрыть крылья. Призванная быть любимой-3,аудиокнига,229.0,1.0,https://www.litres.ru/audiobook/terin-rem/raskryt-krylya-prizvannaya-byt-lubimoy-3-69185158/
+Яна Ясная,Хроники ордена Церберов,аудиокнига,249.0,7.0,https://www.litres.ru/audiobook/yana-yasnaya/hroniki-ordena-cerberov-67743843/
+,Дивное Дивеево,текст,259.0,1.0,https://www.litres.ru/book/irina-bulgakova-8343376/divnoe-diveevo-50587877/
+Маргарита Булгакова,Бегущая по граблям,текст,196.0,3.0,https://www.litres.ru/book/margarita-bulgakova-21163915/beguschaya-po-grablyam-48811363/
+Ирина Булгакова,Ловушка для диггера,текст,129.0,4.5,https://www.litres.ru/book/irina-bulgakova-29207686/lovushka-dlya-diggera-65059391/
+преподобный Серафим Саровский,Бесценное сокровище,текст,179.0,4.0,https://www.litres.ru/book/serafim-sarovskiy/bescennoe-sokrovische-48542846/
+Май Тэлнц,Видеокассеты,текст,249.0,0.0,https://www.litres.ru/book/may-telnc/videokassety-68278820/
+,Математика 7 класс. Всероссийские проверочные работы,текст,149.0,0.0,https://www.litres.ru/book/ludmila-zayceva-32190/matematika-7-klass-vserossiyskie-proverochnye-raboty-67991054/
+Ольга Романовская,Куплю жену. Дорого,аудиокнига,199.0,9.0,https://www.litres.ru/audiobook/olga-romanovskaya/kuplu-zhenu-dorogo-67419455/
+,Духовный цветник Серафима Саровского. Избранные наставления,текст,199.0,5.0,https://www.litres.ru/book/irina-bulgakova-8343/duhovnyy-cvetnik-serafima-sarovskogo-izbrannye-nastav-40124553/
+,"Мудрость, спасающая души. Благодатные дары православной веры",текст,189.0,0.0,https://www.litres.ru/book/irina-bulgakova-8343/mudrost-spasauschaya-dushi-blagodatnye-dary-pravoslav-42191478/
+,Олимпийская энциклопедия. Зимние Олимпийские игры. Том 1. Шамони 1924 – Турин 2006,текст,299.0,0.0,https://www.litres.ru/book/vladimir-svinin-2/olimpiyskaya-enciklopediya-zimnie-olimpiyskie-igry-tom-9527399/
+Ольга Тарасевич,Талисман Михаила Булгакова,текст,159.0,3.7,https://www.litres.ru/book/olga-tarasevich/talisman-mihaila-bulgakova-12195349/
+,Жизнь загробная и вечная. Свидетельства истины,текст,189.0,1.0,https://www.litres.ru/book/irina-bulgakova-8343376/zhizn-zagrobnaya-i-vechnaya-svidetelstva-istiny-40159987/
+Анастасия Булгакова,Начни жить иначе,текст,299.0,3.8,https://www.litres.ru/book/anastasiya-bulgakova/nachni-zhit-inache-42907316/
+Неля Булгакова,"Зрелые сказки про девочек, их мам, принцесс, одну старую фею и злую ведьму Марьяну",текст,199.0,0.0,https://www.litres.ru/book/nelya-bulgakova/zrelye-skazki-pro-devochek-ih-mam-princess-odnu-staruu-feu-51557588/
+Ирина Лисовская,Соблазн с последствиями,аудиокнига,200.0,0.0,https://www.litres.ru/audiobook/irina-lisovskaya-19019115/soblazn-s-posledstviyami-70101232/
+Слава Доронина,Я тебя не помню,аудиокнига,279.0,4.0,https://www.litres.ru/audiobook/slava-doronina/ya-tebya-ne-pomnu-68756370/
+Ирина Булгакова,Предатель,текст,129.0,0.0,https://www.litres.ru/book/irina-bulgakova-29207686/predatel-64658716/
+Ирина Булгакова,Декомпрессия,текст,129.0,0.0,https://www.litres.ru/book/irina-bulgakova-29207686/dekompressiya-64801687/
+Ирина Булгакова,Шторм,текст,129.0,5.0,https://www.litres.ru/book/irina-bulgakova-29207686/shtorm-64897561/
+,Математика 5 класс. Всероссийские проверочные работы,текст,156.0,0.0,https://www.litres.ru/book/ludmila-zayceva-32190/matematika-5-klass-vserossiyskie-proverochnye-raboty-67991048/
+,Домашние молитвы. На все случаи жизни и на каждый день,текст,119.0,1.0,https://www.litres.ru/book/irina-bulgakova-8343/domashnie-molitvy-na-vse-sluchai-zhizni-i-na-kazhdyy-55747225/
+Валерий Есенков,"Рыцарь, или Легенда о Михаиле Булгакове",текст,129.0,2.8,https://www.litres.ru/book/valeriy-esenkov-10396758/rycar-ili-legenda-o-mihaile-bulgakove-27830160/
+Ирина Булгакова,Исцеление верой. Молитвы и наставления для излечения души и тела,текст,189.0,0.0,https://www.litres.ru/book/irina-bulgakova-8343/iscelenie-veroy-molitvy-i-nastavleniya-dlya-izlecheni-51366035/
+О. В. Булгакова; Нина Брюханова,Фитнес-аэробика,текст,149.0,0.0,https://www.litres.ru/book/nina-bruhanova/fitnes-aerobika-65756313/
+Святитель Игнатий (Брянчанинов),Крепость и утешение,текст,179.0,0.0,https://www.litres.ru/book/svyatitel-ignatiy-bryanchaninov/krepost-i-uteshenie-57192436/
+Бренда Джойс,Невероятное влечение,аудиокнига,209.0,0.0,https://www.litres.ru/audiobook/brenda-dzhoys/neveroyatnoe-vlechenie-67317177/
+священник Георгий Кочетков,"Беседы по христианской этике. Выпуск 2: Нравственное доказательство бытия Божия по И. Канту и М. Булгакову. Магия, ведовство, колдовство, вампиризм",текст,90.0,0.0,https://www.litres.ru/book/g-svyaschennik-koche/besedy-po-hristianskoy-etike-vypusk-2-nravstvennoe-do-25579502/
+Святитель Иоанн Златоуст,Безмятежная пристань,текст,139.0,4.0,https://www.litres.ru/book/ioann-zlatoust/bezmyatezhnaya-pristan-51374363/
+Андрей Викторович Яценко,Приложение к «Краткому анализу романа „Мастер и Маргарита“ Михаила Булгакова»,текст,,0.0,https://www.litres.ru/book/andrey-viktorovich-y/prilozhenie-k-kratkomu-analizu-romana-master-i-margar-66173364/
+,Олимпийская энциклопедия. Том 3. Спортивные игры,текст,,0.0,https://www.litres.ru/book/vladimir-svinin-2/olimpiyskaya-enciklopediya-tom-3-sportivnye-igry-9525500/
+Ирина Булгакова,"Молитвы для здоровья. Все самые важные молитвы, чтобы уберечь себя и близких",текст,69.0,1.0,https://www.litres.ru/book/irina-bulgakova-8343/molitvy-dlya-zdorovya-vse-samye-vazhnye-molitvy-chtob-53470797/
+Анатолий Будниченко,Мастер и Маргарита Краткий пересказ произведения М. Булгакова,текст,,3.0,https://www.litres.ru/book/anatoliy-budnichenko/master-i-margarita-kratkiy-pereskaz-proizvedeniya-m-b-11302442/
+Станислав Симонов,Булгаковская Москва. Часть 1,аудиокнига,26.0,1.0,https://www.litres.ru/audiobook/stanislav-simonov-27623585/bulgakovskaya-moskva-chast-1-33842902/
+Станислав Симонов,Булгаковская Москва. Часть 2,аудиокнига,26.0,0.0,https://www.litres.ru/audiobook/stanislav-simonov-27623585/bulgakovskaya-moskva-chast-2-33842910/
+Коллектив шоу «Стиллавин Today»,Елена Булгакова,,26.0,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollektiv-shou-sergey-stillavin-i-ego-druzya/elena-bulgakova-67167918/
+Сергей Беляков,Весна народов. Русские и украинцы между Булгаковым и Петлюрой,аудиокнига,599.0,2.0,https://www.litres.ru/audiobook/sergey-belyakov/vesna-narodov-russkie-i-ukraincy-mezhdu-bulgakovym-i-petlu-57454475/
+Май Тэлнц,Видеокассеты,аудиокнига,249.0,0.0,https://www.litres.ru/audiobook/may-telnc/videokassety-69540883/
+Армен Захарян,Эпизод #2. Ковёр Булгакова.,,,0.0,https://www.litres.ru/podcast/armen-zaharyan/epizod-2-kover-bulgakova-70019133/
+Наталья Фельдман,Булгаковская Москва,аудиокнига,199.0,0.0,https://www.litres.ru/audiobook/natalya-feldman/bulgakovskaya-moskva-181322/
+Ювеналий,Краткое историческое начертание жизни лейбгвардии подпорутчика Феодора Михайловича Булгакова,текст,,0.0,https://www.litres.ru/book/uvenaliy/kratkoe-istoricheskoe-nachertanie-zhizni-leybgvardii-podporutchik-344782/
+Ювеналий,О роде благородных дворян Булгаковых,текст,,0.0,https://www.litres.ru/book/uvenaliy/o-rode-blagorodnyh-dvoryan-bulgakovyh-345872/
+Л.В. Булгакова,Указатель литературы по женскому вопросу,текст,,0.0,https://www.litres.ru/book/ludmila-bulgakova/ukazatel-literatury-po-zhenskomu-voprosu-541845/
+М. А. Булгакова; Ш. А. Гаджиев,Интеграция России в ВТО: особенности обеспечения экономической безопасности отдельных отраслей промышленности (на примере лесопромышленного комплекса),текст,168.0,0.0,https://www.litres.ru/book/m-a-bulgakova/integraciya-rossii-v-vto-osobennosti-obespecheniya-ekonomich-5806281/
+Е. А. Яблоков,Художественный мир Михаила Булгакова,текст,210.0,0.0,https://www.litres.ru/book/evgeniy-yablokov/hudozhestvennyy-mir-mihaila-bulgakova-5810252/
+Елена Степанян,О Михаиле Булгакове и «собачьем сердце»,текст,109.0,1.0,https://www.litres.ru/book/elena-stepanyan/o-mihaile-bulgakove-i-sobachem-serdce-6564835/
+,Олимпийская энциклопедия. Том 2. Водные виды спорта,текст,129.0,0.0,https://www.litres.ru/book/vladimir-svinin-2/olimpiyskaya-enciklopediya-tom-2-vodnye-vidy-sporta-9524844/
+,Олимпийская энциклопедия. Том 4. Спортивные единоборства и многоборья,текст,169.0,0.0,https://www.litres.ru/book/vladimir-svinin-2/olimpiyskaya-enciklopediya-tom-4-sportivnye-edinoborstva-9525573/
+,"Олимпийская энциклопедия. Том 5. Спорт в седле, на снарядах и по мишеням",текст,109.0,0.0,https://www.litres.ru/book/vladimir-svinin-2/olimpiyskaya-enciklopediya-tom-5-sport-v-sedle-na-snarya-9526542/
+,Олимпийская энциклопедия. Зимние Олимпийские игры. Том 2. Ванкувер 2010,текст,149.0,0.0,https://www.litres.ru/book/vladimir-svinin-2/olimpiyskaya-enciklopediya-zimnie-olimpiyskie-igry-tom-9528534/
+Неля Булгакова,"Про девушку, которая не хотела замуж",текст,149.0,0.0,https://www.litres.ru/book/nelya-bulgakova/pro-devushku-kotoraya-ne-hotela-zamuzh-23417715/
+Владимир Иванович Немцев,Способы анализа произведений Михаила Булгакова. Читательское пособие,текст,36.0,0.0,https://www.litres.ru/book/vladimir-ivanovich-n/sposoby-analiza-proizvedeniy-mihaila-bulgakova-chitat-25096371/
+Людмила Максимовна Козлова,Письма Булгакову. Роман. Избранное. Т. 3,текст,200.0,0.0,https://www.litres.ru/book/ludmila-maksimovna-kozlova/pisma-bulgakovu-roman-izbrannoe-t-3-25723597/
+Татьяна Сергеевна Морозова; Сергей Николаевич Морозов,"Лечебная и адаптивная физическая культура. Плавание 3-е изд., пер. и доп. Учебное пособие для СПО",текст,,1.0,https://www.litres.ru/book/nina-zhanovna-bulgak/lechebnaya-i-adaptivnaya-fizicheskaya-kultura-plavani-37389632/
+Сергей Николаевич Морозов; Олег Игоревич Попов,Плавание с методикой преподавания 2-е изд. Учебник для СПО,текст,,0.0,https://www.litres.ru/book/vladimir-zaharovich/plavanie-s-metodikoy-prepodavaniya-2-e-izd-uchebnik-d-37390570/
+,Как читать и понимать лучшие города мира,текст,399.0,0.0,https://www.litres.ru/book/mariya-bulgakova/kak-chitat-i-ponimat-luchshie-goroda-mira-39476766/
+Алифтина Булгакова; В. Н. Баранов,Основы получения отливок из сплавов на основе железа,текст,149.0,0.0,https://www.litres.ru/book/aliftina-bulgakova/osnovy-polucheniya-otlivok-iz-splavov-na-osnove-zheleza-40130160/
+Неля Булгакова,Штрафная зона,текст,176.0,6.0,https://www.litres.ru/book/nelya-bulgakova/shtrafnaya-zona-41219277/
+Алла Арлетт Антонюк,Булгаковские мистерии. «Мастер и Маргарита» в контексте русской классики Очерки по мифопоэтике. Часть III,текст,480.0,0.0,https://www.litres.ru/book/alla-arlett-antonuk/bulgakovskie-misterii-master-i-margarita-v-kontekste-r-41830094/
+,Феминистки не носят розовое (и другие мифы),аудиокнига,499.0,0.0,https://www.litres.ru/audiobook/skarlett-kertis/feministki-ne-nosyat-rozovoe-i-drugie-mify-42355541/
+Сергей Николаевич Морозов; Нина Жановна Булгакова,Теория и методика избранного вида спорта: водные виды спорта 2-е изд. Учебник для академического бакалавриата,текст,,0.0,https://www.litres.ru/book/anna-andreevna-simag/teoriya-i-metodika-izbrannogo-vida-sporta-vodnye-vidy-42653979/
+Сергей Николаевич Морозов; Нина Жановна Булгакова,Теория и методика обучения предмету «физическая культура»: водные виды спорта 2-е изд. Учебное пособие для СПО,текст,,1.0,https://www.litres.ru/book/anna-andreevna-simag/teoriya-i-metodika-obucheniya-predmetu-fizicheskaya-k-43711656/
+cвятой праведный Иоанн Кронштадтский,Живая вера сердца,текст,129.0,4.0,https://www.litres.ru/book/svyatoy-pravednyy-ioann-kronshtadtskiy/zhivaya-vera-serdca-51179471/
+Ирина Булгакова,Молитвы для мам. Для счастья и здоровья малыша,текст,99.0,0.0,https://www.litres.ru/book/irina-bulgakova-8343376/molitvy-dlya-mam-dlya-schastya-i-zdorovya-malysha-51366247/
+Элина Робертовна Булгакова,Хозяйка бала,текст,,0.0,https://www.litres.ru/book/elina-robertovna-bulgakova/hozyayka-bala-57392429/
+Светлана Николаевна Булгакова,"Дирижерско-хоровая практика: мессы и жанры духовной музыки от раннего Средневековья к XXI веку 2-е изд., пер. и доп. Учебник и практикум для вузов",текст,,0.0,https://www.litres.ru/book/svetlana-nikolaevna/dirizhersko-horovaya-praktika-messy-i-zhanry-duhovnoy-63062752/
+Светлана Николаевна Булгакова,"Дирижерско-хоровая деятельность:: мессы и жанры духовной музыки от раннего Средневековья к XX веку 2-е изд., пер. и доп. Учебник и практикум для СПО",текст,,0.0,https://www.litres.ru/book/svetlana-nikolaevna/dirizhersko-horovaya-deyatelnost-messy-i-zhanry-duhov-63416232/
+Элина Робертовна Булгакова,Кирюшины подарки,текст,,0.0,https://www.litres.ru/book/elina-robertovna-bulgakova/kirushiny-podarki-63438407/
+Мира Владимировна Кондратович,Эра новых,текст,129.0,1.0,https://www.litres.ru/book/mira-vladimirovna-kondratovich/era-novyh-63596417/
+Элина Робертовна Булгакова,"Правдивая история королевы красоты 2020, которую никто не прочтет",текст,149.0,0.0,https://www.litres.ru/book/elina-robertovna-bul/pravdivaya-istoriya-korolevy-krasoty-2020-kotoruu-nik-63676362/
+Маргарита Митрофанова; Александр Пушной,"О необычных музеях России. Музей М.А. Булгакова, музей маячной службы, музей советского детства, музей истории пряника",,26.0,0.0,https://www.litres.ru/podcast/aleksandr-pushnoy/o-neobychnyh-muzeyah-rossii-muzey-m-a-bulgakova-muzey-ma-65616292/
+О. В. Булгакова; В. С. Близневская,Фитнес-тренинг формирования готовности студентов вуза к выполнению комплекса ГТО,текст,149.0,0.0,https://www.litres.ru/book/vasiliy-ponomarev-30/fitnes-trening-formirovaniya-gotovnosti-studentov-vuz-65681117/
+Б. Ф. Белецкий; И. Г. Булгакова,Строительные машины и оборудование,текст,,0.0,https://www.litres.ru/book/b-f-beleckiy/stroitelnye-mashiny-i-oborudovanie-65999518/
+М. В. Андреева; Г. А. Круглов,Теплотехника. Практический курс. Учебное пособие для вузов,текст,399.0,0.0,https://www.litres.ru/book/g-a-kruglov/teplotehnika-prakticheskiy-kurs-uchebnoe-posobie-dlya-vuzov-66003686/
+Г. А. Круглов; Р. И. Булгакова,Основы теплотехники,текст,399.0,0.0,https://www.litres.ru/book/g-a-kruglov/osnovy-teplotehniki-66007837/
+Г. А. Круглов; Р. И. Булгакова,Теплотехника,текст,982.0,0.0,https://www.litres.ru/book/g-a-kruglov/teplotehnika-66007969/
+Юлия Олеговна Булгакова,Одиночество,текст,200.0,0.0,https://www.litres.ru/book/uliya-olegovna/odinochestvo-3-66035939/
+Юлия Олеговна Булгакова,Сказка о девушке и её куколках. Книга 1,текст,80.0,0.0,https://www.litres.ru/book/uliya-olegovna-31201672/skazka-o-devushke-i-ee-kukolkah-1-66108088/
+Коста Хетагуров,Рассказы,аудиокнига,89.0,0.0,https://www.litres.ru/audiobook/kosta-hetagurov/rasskazy-66590580/
+Авторский коллектив «Буферная бухта»,Мифы про Пушкина и Булгакова,,,0.0,https://www.litres.ru/podcast/avtorskiy-kollektiv-bufernaya-buhta/mify-pro-pushkina-i-bulgakova-66643469/
+Ольга Консуэло,Напарницы,аудиокнига,269.0,4.0,https://www.litres.ru/audiobook/olga-konsuelo/naparnicy-66675742/
+Андрей Михайлович Паскевич,Впечатления и размышления. «Дневник духовный» Сергея Булгакова,текст,,1.0,https://www.litres.ru/book/andrey-mihaylovich-p/vpechatleniya-i-razmyshleniya-dnevnik-duhovnyy-sergey-66787153/
+Картаев Павел; Вахтанг Махарадзе,Квартирный вопрос в жизни и творчестве Булгакова,,26.0,0.0,https://www.litres.ru/podcast/mahardze-vahtang/kvartirnyy-vopros-v-zhizni-i-tvorchestve-bulgakova-66793637/
+Картаев Павел; Вахтанг Махарадзе,"""Собачье сердце"" М.А. Булгакова. Профессор Преображенский и другие",,26.0,0.0,https://www.litres.ru/podcast/mahardze-vahtang/sobache-serdce-m-a-bulgakova-professor-preobrazhenskiy-i-66793672/
+Полина Булгакова,Вы это серьёзно?,текст,,4.0,https://www.litres.ru/book/polina-bulgakova-31845420/vy-eto-serezno-66997640/
+Александра Крючкова,Ловушка для Мыслеформы. Премия «Мастер» им. М. А. Булгакова. Игра в Иную Реальность,текст,480.0,0.0,https://www.litres.ru/book/aleksandra-kruchkova/lovushka-dlya-mysleformy-premiya-master-im-m-a-bulgak-67171971/
+Маргарита Митрофанова; Александр Пушной,Мир Булгакова,,26.0,0.0,https://www.litres.ru/podcast/aleksandr-pushnoy/mir-bulgakova-67182474/
+Маргарита Митрофанова; Александр Пушной,Мистика в жизни и творчестве Михаила Булгакова,,26.0,0.0,https://www.litres.ru/podcast/aleksandr-pushnoy/mistika-v-zhizni-i-tvorchestve-mihaila-bulgakova-67183430/
+Маргарита Митрофанова; Александр Пушной,"""Мастер и Маргарита"": за что мы любим роман Михаила Булгакова",,26.0,0.0,https://www.litres.ru/podcast/aleksandr-pushnoy/master-i-margarita-za-chto-my-lubim-roman-mihaila-bulgak-67183506/
+Irma Narbut,Образы русской классической литературы в произведениях М. А. Булгакова,текст,488.0,0.0,https://www.litres.ru/book/irma-narbut/obrazy-russkoy-klassicheskoy-literatury-v-proizvedeniyah-m-a-b-67296438/
+Irma Narbut,Философская проблематика романа М. А. Булгакова «Мастер и Маргарита»,текст,488.0,0.0,https://www.litres.ru/book/irma-narbut/filosofskaya-problematika-romana-m-a-bulgakova-master-i-margar-67296458/
+О. В. Седова,Жизнь и творчество Д. Г. Булгаковского,текст,180.0,0.0,https://www.litres.ru/book/olesya-sedova-31977488/zhizn-i-tvorchestvo-d-g-bulgakovskogo-67321619/
+Радио «Комсомольская правда»,Путевые заметки : Булгаковская Москва,,26.0,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollektiv-programmy-tayna/putevye-zametki-bulgakovskaya-moskva-67386613/
+Светлана Демидова,Интерьер для птицы счастья,аудиокнига,229.0,0.0,https://www.litres.ru/audiobook/svetlana-demidova/interer-dlya-pticy-schastya-67554029/
+РИА Новости,"""Вбежал человек с острым носом"": загадочные встречи Булгакова с Гоголем",,26.0,0.0,https://www.litres.ru/podcast/raznoe-29916681/vbezhal-chelovek-s-ostrym-nosom-zagadochnye-vstrechi-bulga-67756078/
+РИА Новости,"Предчувствие смерти, пожар и золотая браслетка. ""Мистика"" в жизни Булгакова",,26.0,0.0,https://www.litres.ru/podcast/raznoe-29916681/predchuvstvie-smerti-pozhar-i-zolotaya-brasletka-mistika-v-67756093/
+Г. А. Круглов; Р. И. Булгакова,Основы теплотехники. Учебное пособие для СПО,текст,,0.0,https://www.litres.ru/book/g-a-kruglov/osnovy-teplotehniki-67796403/
+Светлана Анатольевна Власова,Мелодия жизни,текст,149.0,0.0,https://www.litres.ru/book/svetlana-vlasova-32138229/melodiya-zhizni-67846380/
+Редакция портала «Культура.РФ»,Как читать «Белую гвардию» Булгакова,,,0.0,https://www.litres.ru/podcast/redakciya-portala-kultura-rf/kak-chitat-beluu-gvardiu-bulgakova-67960224/
+Дмитрий Буткевич,«Одной из главных премьер станет пьеса Михаила Булгакова»,,,0.0,https://www.litres.ru/podcast/dmitriy-butkevich/odnoy-iz-glavnyh-premer-stanet-pesa-mihaila-bulgakova-68019371/
+Люттоли (Луи Бриньон),Нравственность и разврат,аудиокнига,200.0,0.0,https://www.litres.ru/audiobook/luttoli/nravstvennost-i-razvrat-68030879/
+Ольга Скребейко,"Юля Булгакова: скрипка, металлолом и безудержный ржач",,,0.0,https://www.litres.ru/podcast/olga-skrebeyko/ulya-bulgakova-skripka-metallolom-i-bezuderzhnyy-rzhach-68063070/
+Ирина Сергеева,"Однажды на Садовой-бис, или Приключение в Булгаковском дворике",текст,488.0,0.0,https://www.litres.ru/book/irina-sergeeva-32245/odnazhdy-na-sadovoy-bis-ili-prikluchenie-v-bulgakovsk-68255047/
+Редакция портала «Культура.РФ»,10 булгаковских адресов в Москве,,,0.0,https://www.litres.ru/podcast/redakciya-portala-kultura-rf/10-bulgakovskih-adresov-v-moskve-68369719/
+Александра Крючкова,Ловушка для Мыслеформы. A Trap for a Thought-Form. Премия им. М. Булгакова / M. Bulgakov Award (Билингва: Rus/Eng),текст,480.0,0.0,https://www.litres.ru/book/aleksandra-kruchkova/lovushka-dlya-mysleformy-a-trap-for-a-thought-form-pr-68533446/
+Мира Владимировна Кондратович,Эра новых,аудиокнига,129.0,0.0,https://www.litres.ru/audiobook/mira-vladimirovna-kondratovich/era-novyh-68638645/
+Ирина Булгакова,Декомпрессия,аудиокнига,129.0,0.0,https://www.litres.ru/audiobook/irina-bulgakova-29207686/dekompressiya-68727666/
+Александра Крючкова,Ловушка для Мыслеформы. Премия «Мастер» им. М. А. Булгакова. Игра в Иную Реальность,аудиокнига,399.0,0.0,https://www.litres.ru/audiobook/aleksandra-kruchkova/lovushka-dlya-mysleformy-premiya-master-im-m-a-bulgak-68861046/
+Александра Крючкова,Ловушка для Мыслеформы. A Trap for a Thought-Form. Премия им. М. Булгакова / M. Bulgakov Award (Билингва: Rus/Eng),аудиокнига,399.0,0.0,https://www.litres.ru/audiobook/aleksandra-kruchkova/lovushka-dlya-mysleformy-a-trap-for-a-thought-form-pr-68944941/
+Маргарита Митрофанова; Александр Пушной,Спутники жизни. Как мастер встретил Маргариту: Михаил и Елена Булгаковы,,26.0,0.0,https://www.litres.ru/podcast/aleksandr-pushnoy/sputniki-zhizni-kak-master-vstretil-margaritu-mihail-i-e-68969737/
+Ольга Скребейко,Юлия Булгакова: роскошная взрослость,,,0.0,https://www.litres.ru/podcast/olga-skrebeyko/uliya-bulgakova-roskoshnaya-vzroslost-69138889/
+Ольга Скребейко,"Юля Булгакова: скрипка, металлолом и безудержный ржач",,,0.0,https://www.litres.ru/podcast/olga-skrebeyko/ulya-bulgakova-skripka-metallolom-i-bezuderzhnyy-rzhach-69138982/
+Алла Арлетт Антонюк,Пушкиниана Михаила Булгакова. Булгаковские мистерии Очерки по мифопоэтике. Часть V,текст,396.0,0.0,https://www.litres.ru/book/alla-arlett-antonuk/pushkiniana-mihaila-bulgakova-bulgakovskie-misterii-oc-69206380/
+Артём Новиченков,"""Мастер и Маргарита"" Булгакова и ""Дар"" Набокова – ""последние"" русские романы",,26.0,0.0,https://www.litres.ru/podcast/artem-novichenkov/master-i-margarita-bulgakova-i-dar-nabokova-poslednie-ru-69334881/
+Д. В. Алонцева,Государственно-правовые взгляды С. Н. Булгакова,текст,258.0,0.0,https://www.litres.ru/book/d-v-alonceva/gosudarstvenno-pravovye-vzglyady-s-n-bulgakova-69437617/
+А. В. Никулина,Музыка романа М. Булгакова «Мастер и Маргарита»,текст,362.0,0.0,https://www.litres.ru/book/a-v-nikulina/muzyka-romana-m-bulgakova-master-i-margarita-69438355/
+М. Д. Кудрявцев; О. В. Булгакова,Фитнес. Направление Kangоo Power,текст,149.0,0.0,https://www.litres.ru/book/a-u-osipov/fitnes-napravlenie-kangoo-power-69515899/
+Елена Александровна Макарова; Анна Юрьевна Рожкова,"Компетенции в цифровой экономике. Современный кадровый вызов. (Аспирантура, Бакалавриат, Магистратура). Монография.",текст,790.0,0.0,https://www.litres.ru/book/a-u-rozhkova/kompetencii-v-cifrovoy-ekonomike-sovremennyy-kadrovyy-vyzov-a-69556717/
+Алексей Козырев,Софиология Павла Флоренского и Сергея Булгакова — Алексей Козырев,,,0.0,https://www.litres.ru/podcast/aleksey-kozyrev/sofiologiya-pavla-florenskogo-i-sergeya-bulgakova-aleksey-69642766/
+Филипп Смирнов,"Парк Лефортово. Парк ""Музеон"". Булгаковские персонажи в Сивяковом переулке @ Прогулки со Смирновым (07-09.07.17)",,,0.0,https://www.litres.ru/podcast/filipp-smirnov-32746/park-lefortovo-park-muzeon-bulgakovskie-personazhi-v-69880300/
+Коллектив радио «Маяк»,Рассказы Михаила Булгакова (читает актёр Андрей Гусев),,,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/rasskazy-mihaila-bulgakova-chitaet-akter-andrey-gusev-69950187/
+Коллектив радио «Маяк»,Ферма Булгаковых,,26.0,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollektiv-radio-mayak/ferma-bulgakovyh-69991035/
+Коллектив радио «Маяк»,"Книжная полка. Роман М.А. Булгакова ""Мастер и Маргарита""",,26.0,0.0,https://www.litres.ru/podcast/tvorcheskiy-kollekti/knizhnaya-polka-roman-m-a-bulgakova-master-i-margarit-69991491/
+Борис Вадимович Соколов,"Творческая биография М.А. Булгакова (к 130-летию автора). (Аспирантура, Бакалавриат, Магистратура, Специалитет). Монография.",текст,790.0,0.0,https://www.litres.ru/book/boris-sokolov-313309/tvorcheskaya-biografiya-m-a-bulgakova-k-130-letiu-avt-70085053/
+Петр Вяземский,Воспоминание о Булгаковых,текст,,0.0,https://www.litres.ru/book/petr-vyazemskiy/vospominanie-o-bulgakovyh-24527905/
+Ирина Булгакова,Смертник,текст,,1.0,https://www.litres.ru/book/irina-bulgakova-29207686/smertnik-66107808/
+Клим Жуков,Мастер и Маргарита - великий роман Булгакова. Коммунисты против Воланда.,,,0.0,https://www.litres.ru/podcast/klim-zhukov/master-i-margarita-velikiy-roman-bulgakova-kommunisty-protiv-v-69888579/
+Анна Алексеева; Деймон Краш,Брачные игры драконов,аудиокнига,249.0,0.0,https://www.litres.ru/audiobook/anna-alekseeva-19421875/brachnye-igry-drakonov-70026559/
+Ювеналий,"Краткое родословное показание ныне здравствующих дворянских фамилий: Лопухиных, Волынских, Воейковых, Булгаковых, Коробановых, Кропотовых, Казаковых, Макаровых, Приклонских и Сабуровых",текст,,0.0,https://www.litres.ru/book/uvenaliy/kratkoe-rodoslovnoe-pokazanie-nyne-zdravstvuuschih-dvoryanskih-fa-345862/
+Д.Г. Булгаковский,Нижегородские легенды,текст,,0.0,https://www.litres.ru/book/dmitriy-bulgakovskiy/nizhegorodskie-legendy-524265/
+Л.В. Булгакова,Материалы для библиографии Ленина,текст,,0.0,https://www.litres.ru/book/ludmila-bulgakova/materialy-dlya-bibliografii-lenina-541835/
+"Антон Коляго, Андрей Марьянов","«Вампиры средней полосы»: бюджетники-кровососы, булгаковщина, шутки про Беларусь",,,0.0,https://www.litres.ru/podcast/anton-kolyago-andrey/vampiry-sredney-polosy-budzhetniki-krovososy-bulgakov-67187206/
+Библиотеки Волгодонска,Читаем Булгакова. Собачье сердце,,,0.0,https://www.litres.ru/podcast/biblioteki-volgodonska/chitaem-bulgakova-sobache-serdce-67217114/
+Анастасия Булгакова,Статуи из песка,текст,,0.0,https://www.litres.ru/book/anastasiya-bulgakova-31946384/statui-iz-peska-67243146/
+Максим Петрович Потоцкий,"Собачье сердце, или Страсти по Булгакову",текст,,1.0,https://www.litres.ru/book/maksim-petrovich-potockiy/sobache-serdce-ili-strasti-po-bulgakovu-67419423/
+Ольга Скребейко,Юлия Булгакова: роскошная взрослость,,,0.0,https://www.litres.ru/podcast/olga-skrebeyko/uliya-bulgakova-roskoshnaya-vzroslost-68063040/
+Екатерина Булгакова,На том же месте через десять лет,текст,,0.0,https://www.litres.ru/book/ekaterina-bulgakova-32545612/na-tom-zhe-meste-cherez-desyat-let-69135055/
+Владлен Громов,Альпы 666,текст,,1.0,https://www.litres.ru/book/vladlen-gromov/alpy-666-69818335/
+Ксения Родионова,"Краткая биография Михаила Булгакова: Три Брака, Зависимость и Сталин",,,0.0,https://www.litres.ru/podcast/kseniya-rodionova-32/kratkaya-biografiya-mihaila-bulgakova-tri-braka-zavis-69993769/
+Мишель Бюсси,Самолет без нее,аудиокнига,339.0,65.0,https://www.litres.ru/audiobook/mishel-bussi/samolet-bez-nee-68956197/
+Николай Эппле,Неудобное прошлое. Память о государственных преступлениях в России и других странах,аудиокнига,339.0,58.0,https://www.litres.ru/audiobook/nikolay-epple/neudobnoe-proshloe-pamyat-o-gosudarstvennyh-prestupleniyah-v-66649800/
+Максим Батырев,Менеджмент во время шторма. 15 правил управления в кризис,аудиокнига,119.0,37.0,https://www.litres.ru/audiobook/maksim-batyrev/menedzhment-vo-vremya-shtorma-15-pravil-upravleniya-v-krizi-67940619/
+Максим Батырев,Сложные подчиненные. Практика российских руководителей,аудиокнига,399.0,129.0,https://www.litres.ru/audiobook/maksim-batyrev/slozhnye-podchinennye-praktika-rossiyskih-rukovoditeley-63532632/
+Мишель Бюсси,Время – убийца,аудиокнига,339.0,68.0,https://www.litres.ru/audiobook/mishel-bussi/vremya-ubiyca-30556238/
+Нэнси Колиер,"Навязчивые мысли. Как прекратить бесконечный внутренний монолог, избавиться от негативных установок и обрести душевное спокойствие",аудиокнига,399.0,4.0,https://www.litres.ru/audiobook/nensi-kolier/navyazchivye-mysli-kak-prekratit-beskonechnyy-vnutrenniy-mono-67792053/
+Ричард Шварц,Мои разные «я». Что такое субличности и как знание о них поможет проработать травмы и обрести внутреннюю целостность,аудиокнига,399.0,6.0,https://www.litres.ru/audiobook/richard-shvarc-21966/moi-raznye-ya-chto-takoe-sublichnosti-i-kak-znanie-o-67427330/
+Алексей Иванов,Ёбург,аудиокнига,399.0,7.0,https://www.litres.ru/audiobook/aleksey-ivanov/eburg-69302857/
+Максим Батырев; Николай Лазарев,Воодушевление отделов продаж. Инструменты нематериальной мотивации,аудиокнига,399.0,6.0,https://www.litres.ru/audiobook/maksim-batyrev/voodushevlenie-otdelov-prodazh-instrumenty-nematerialnoy-mo-67749740/
+Сахара Роуз Кетаби,Дхарма. Услышать истинное «я» в большом мире и раскрыть свой безграничный потенциал,аудиокнига,399.0,4.0,https://www.litres.ru/audiobook/sahara-rose-ketabi/dharma-uslyshat-istinnoe-ya-v-bolshom-mire-i-raskryt-sv-68018915/
+Линдер Кани,Тим Кук,аудиокнига,399.0,38.0,https://www.litres.ru/audiobook/leander-kahney/tim-kuk-51382756/
+Райан Холидей,Препятствие как путь,аудиокнига,399.0,10.0,https://www.litres.ru/audiobook/rayan-holidey/prepyatstvie-kak-put-58005111/
+Дэвид Гребер,"Утопия правил. О технологиях, глупости и тайном обаянии бюрократии",аудиокнига,119.0,3.0,https://www.litres.ru/audiobook/devid-greber/utopiya-pravil-o-tehnologiyah-gluposti-i-taynom-obayanii-buro-69128653/
+Дэвид Гребер,Долг: первые 5000 лет истории,аудиокнига,339.0,3.0,https://www.litres.ru/audiobook/devid-greber/dolg-pervye-5000-let-istorii-69509059/
+Урсула Ле Гуин,Слово для «леса» и «мира» одно,аудиокнига,249.0,4.0,https://www.litres.ru/audiobook/ursula-kreber-le-guin/slovo-dlya-lesa-i-mira-odno-68475745/
+Зонке Аренс,Как делать полезные заметки. Эффективная система организации идей по методу Zettelkasten,аудиокнига,399.0,4.0,https://www.litres.ru/audiobook/sonke-ahrens/kak-delat-poleznye-zametki-effektivnaya-sistema-organizacii-i-66748818/
+Бен Ламорт; Пол Нивен,Цели и ключевые результаты. Полное руководство по внедрению OKR,аудиокнига,399.0,4.0,https://www.litres.ru/audiobook/ben-lamort/celi-i-kluchevye-rezultaty-polnoe-rukovodstvo-po-vnedreniu-okr-64061126/
+Килиан Жорнет,Нет ничего невозможного,аудиокнига,399.0,14.0,https://www.litres.ru/audiobook/kilian-zhornet/net-nichego-nevozmozhnogo-51142229/
+Итан Кросс,Внутренний голос. Почему мы говорим с собой и как это на нас влияет,аудиокнига,399.0,4.0,https://www.litres.ru/audiobook/ethan-kross/vnutrenniy-golos-pochemu-my-govorim-s-soboy-i-kak-eto-na-nas-v-65086902/
+Скотт Джеффри Миллер,Больше чем руководитель. 30 советов-вызовов для эффективного управления,аудиокнига,399.0,1.0,https://www.litres.ru/audiobook/scott-jeffrey-miller/bolshe-chem-rukovoditel-30-sovetov-vyzovov-dlya-effek-67427313/
